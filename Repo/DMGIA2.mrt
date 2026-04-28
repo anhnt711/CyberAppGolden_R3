@@ -1,0 +1,958 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="3">
+      <Table0 Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Table0</Alias>
+        <Columns isList="true" count="13">
+          <value>MA_DB,System.String</value>
+          <value>Ma_dvcs,System.String</value>
+          <value>MA_KH,System.String</value>
+          <value>MA_KHO,System.String</value>
+          <value>NH_KH1,System.String</value>
+          <value>NH_KH2,System.String</value>
+          <value>NH_KH3,System.String</value>
+          <value>GIA_NT2,System.Decimal</value>
+          <value>GIA_NT3,System.Decimal</value>
+          <value>GIA2,System.Decimal</value>
+          <value>GIA3,System.Decimal</value>
+          <value>MA_VT,System.String</value>
+          <value>NGAY_BAN,System.DateTime</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Table0</Name>
+        <NameInSource>CyberDataSource.Table0</NameInSource>
+      </Table0>
+      <Table1 Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Table1</Alias>
+        <Columns isList="true" count="19">
+          <value>Name,System.String</value>
+          <value>Stt,System.Decimal</value>
+          <value>Sttlook,System.Decimal</value>
+          <value>Field_Name,System.String</value>
+          <value>Field_Type,System.String</value>
+          <value>Field_Head1,System.String</value>
+          <value>Field_Head2,System.String</value>
+          <value>Field_Width,System.Decimal</value>
+          <value>Field_ReOnly,System.Decimal</value>
+          <value>Format,System.String</value>
+          <value>Empty,System.Decimal</value>
+          <value>Ngam_Dinh,System.Decimal</value>
+          <value>Lookup,System.Decimal</value>
+          <value>Carry,System.Decimal</value>
+          <value>CellMerge,System.Decimal</value>
+          <value>BackColor,System.String</value>
+          <value>BackColor2,System.String</value>
+          <value>Acti,System.Decimal</value>
+          <value>CP_Name,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Table1</Name>
+        <NameInSource>CyberDataSource.Table1</NameInSource>
+      </Table1>
+      <Table2 Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Table2</Alias>
+        <Columns isList="true" count="32">
+          <value>Ma_Phan_he,System.String</value>
+          <value>Name,System.String</value>
+          <value>Order,System.String</value>
+          <value>Title1,System.String</value>
+          <value>Title2,System.String</value>
+          <value>HelpName,System.String</value>
+          <value>Report,System.String</value>
+          <value>IncluDelete,System.String</value>
+          <value>ColFrozen,System.Decimal</value>
+          <value>RowFrozen,System.Decimal</value>
+          <value>Export_Excel,System.Decimal</value>
+          <value>Export_Doc,System.Decimal</value>
+          <value>Export_Pdf,System.Decimal</value>
+          <value>Export_Html,System.Decimal</value>
+          <value>Export_Text,System.Decimal</value>
+          <value>F3,System.Decimal</value>
+          <value>F4,System.Decimal</value>
+          <value>F6,System.Decimal</value>
+          <value>F7,System.Decimal</value>
+          <value>F8,System.Decimal</value>
+          <value>Copy,System.Decimal</value>
+          <value>Attach,System.Decimal</value>
+          <value>getdatabase,System.Decimal</value>
+          <value>GetSQL,System.Decimal</value>
+          <value>AutoCode,System.Decimal</value>
+          <value>Right,System.Decimal</value>
+          <value>Tree,System.Decimal</value>
+          <value>Filter_year,System.Decimal</value>
+          <value>Is_Exist,System.Decimal</value>
+          <value>Filter_Unit,System.Decimal</value>
+          <value>MaxForm,System.Decimal</value>
+          <value>Acti,System.Decimal</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Table2</Name>
+        <NameInSource>CyberDataSource.Table2</NameInSource>
+      </Table2>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="13">
+      <value>,M_DIA_CHI,M_DIA_CHI,System.String,P102A2_x002C__x0020_Ngõ_x0020_102_x0020_Nguyễn_x0020_Huy_x0020_Tưởng_x002C__x0020_Thanh_x0020_Xuân_x0020_Trung_x002C__x0020_Thanh_x0020_Xuân_x002C__x0020_Hà_x0020_Nội,False,False</value>
+      <value>,M_DIEN_THOAI,M_DIEN_THOAI,System.String,_x0030_903.296.818,False,False</value>
+      <value>,M_EMAIL,M_EMAIL,System.String,,False,False</value>
+      <value>,M_FAX,M_FAX,System.String,_x0030_4.3996.4617,False,False</value>
+      <value>,M_MA_SO_THUE,M_MA_SO_THUE,System.String,_x0030_101407560,False,False</value>
+      <value>,M_TEN_CTY,M_TEN_CTY,System.String,CÔNG_x0020_TY_x0020_TNHH_x0020_LÊ_x0020_XUÂN_x0020_-_x0020_01,False,False</value>
+      <value>,M_TEN_TCTY,M_TEN_TCTY,System.String,UBND_x0020_THÀNH_x0020_PHỐ_x0020_HÀ_x0020_NỘI,False,False</value>
+      <value>,M_TEN_GD,M_TEN_GD,System.String,Nguyễn_x0020_Quang_x0020_Hưng,False,False</value>
+      <value>,M_TEN_KTT,M_TEN_KTT,System.String,Nguyễn_x0020_Thị_x0020_Loan,False,False</value>
+      <value>,M_WEBSITE,M_WEBSITE,System.String,,False,False</value>
+      <value>,M_TEN_NLB,M_TEN_NLB,System.String,Admin:_x0020_Hotline_x0020_1900.54.54.34111,False,False</value>
+      <value>,M_TITLE1,M_TITLE1,System.String,ĐĂNG_x0020_KÝ_x0020_GIÁ_x0020_BÁN,False,False</value>
+      <value>,M_TITLE2,M_TITLE2,System.String,DETAIL_x0020_LIST_x0020_OF_x0020_ASSET,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="5" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="18">
+        <TitleBand Ref="6" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0,0,1.8</ClientRectangle>
+          <Components isList="true" count="4">
+            <TxtTiTle_M_TEN_TCTY Ref="7" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,8.2,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,16,Bold</Font>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtTiTle_M_TEN_TCTY</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{M_TEN_TCTY}</Text>
+              <TextBrush>Black</TextBrush>
+            </TxtTiTle_M_TEN_TCTY>
+            <TxtTiTle_M_TEN_CTY Ref="8" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.3,8.2,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,16,Bold</Font>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtTiTle_M_TEN_CTY</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{M_TEN_CTY}</Text>
+              <TextBrush>Black</TextBrush>
+            </TxtTiTle_M_TEN_CTY>
+            <TxtTiTle_M_DIA_CHI Ref="9" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.6,8.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtTiTle_M_DIA_CHI</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{M_DIA_CHI}</Text>
+              <TextBrush>Black</TextBrush>
+            </TxtTiTle_M_DIA_CHI>
+            <TxtTiTle_M_TITLE1 Ref="10" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,1,8.2,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,16,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtTiTle_M_TITLE1</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{M_TITLE1}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TxtTiTle_M_TITLE1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>TitleBand</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </TitleBand>
+        <HeaderBand Ref="11" type="HeaderBand" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>NavajoWhite</Brush>
+          <ClientRectangle>0,0,0,0.5</ClientRectangle>
+          <Components isList="true" count="18">
+            <TxtHeaderDetail_MA_VT Ref="12" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,1.02,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtHeaderDetail_MA_VT</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <Text>Mã vật tư</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </TxtHeaderDetail_MA_VT>
+            <V_StartLine_HeaderMA_VT Ref="13" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>0,0,0,0</ClientRectangle>
+              <Name>V_StartLine_HeaderMA_VT</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <ReferenceToGuid>a52a003c40a64fc5a96ed44e015150b8</ReferenceToGuid>
+            </V_StartLine_HeaderMA_VT>
+            <V_EndLine_HeaderMA_VT Ref="14" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.5,0,0</ClientRectangle>
+              <Name>V_EndLine_HeaderMA_VT</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <ReferenceToGuid>a52a003c40a64fc5a96ed44e015150b8</ReferenceToGuid>
+            </V_EndLine_HeaderMA_VT>
+            <TxtHeaderDetail_NGAY_BAN Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.02,0,1.02,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtHeaderDetail_NGAY_BAN</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <Text>Ngày bắt đầu hiệu lực</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </TxtHeaderDetail_NGAY_BAN>
+            <V_StartLine_HeaderNGAY_BAN Ref="16" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>1.02,0,0,0</ClientRectangle>
+              <Name>V_StartLine_HeaderNGAY_BAN</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <ReferenceToGuid>ff9277582f8e4c5baacae85018242fa5</ReferenceToGuid>
+            </V_StartLine_HeaderNGAY_BAN>
+            <V_EndLine_HeaderNGAY_BAN Ref="17" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.5,0,0</ClientRectangle>
+              <Name>V_EndLine_HeaderNGAY_BAN</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <ReferenceToGuid>ff9277582f8e4c5baacae85018242fa5</ReferenceToGuid>
+            </V_EndLine_HeaderNGAY_BAN>
+            <TxtHeaderDetail_GIA3 Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.04,0,1.54,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtHeaderDetail_GIA3</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <Text>Giá VND trước thuế</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </TxtHeaderDetail_GIA3>
+            <V_StartLine_HeaderGIA3 Ref="19" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>2.04,0,0,0</ClientRectangle>
+              <Name>V_StartLine_HeaderGIA3</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <ReferenceToGuid>535daec4aefb477ebf1eb9790297e85b</ReferenceToGuid>
+            </V_StartLine_HeaderGIA3>
+            <V_EndLine_HeaderGIA3 Ref="20" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.5,0,0</ClientRectangle>
+              <Name>V_EndLine_HeaderGIA3</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <ReferenceToGuid>535daec4aefb477ebf1eb9790297e85b</ReferenceToGuid>
+            </V_EndLine_HeaderGIA3>
+            <TxtHeaderDetail_GIA_NT3 Ref="21" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.58,0,1.54,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtHeaderDetail_GIA_NT3</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <Text>Giá NT trước thuế</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </TxtHeaderDetail_GIA_NT3>
+            <V_StartLine_HeaderGIA_NT3 Ref="22" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>3.58,0,0,0</ClientRectangle>
+              <Name>V_StartLine_HeaderGIA_NT3</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <ReferenceToGuid>f5971ef0089c4d629fef1523f02b0fdb</ReferenceToGuid>
+            </V_StartLine_HeaderGIA_NT3>
+            <V_EndLine_HeaderGIA_NT3 Ref="23" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.5,0,0</ClientRectangle>
+              <Name>V_EndLine_HeaderGIA_NT3</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <ReferenceToGuid>f5971ef0089c4d629fef1523f02b0fdb</ReferenceToGuid>
+            </V_EndLine_HeaderGIA_NT3>
+            <TxtHeaderDetail_GIA2 Ref="24" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.12,0,1.54,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtHeaderDetail_GIA2</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <Text>Giá VND</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </TxtHeaderDetail_GIA2>
+            <V_StartLine_HeaderGIA2 Ref="25" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>5.12,0,0,0</ClientRectangle>
+              <Name>V_StartLine_HeaderGIA2</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <ReferenceToGuid>58c6a23d160743759e124e86944f3714</ReferenceToGuid>
+            </V_StartLine_HeaderGIA2>
+            <V_EndLine_HeaderGIA2 Ref="26" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.5,0,0</ClientRectangle>
+              <Name>V_EndLine_HeaderGIA2</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <ReferenceToGuid>58c6a23d160743759e124e86944f3714</ReferenceToGuid>
+            </V_EndLine_HeaderGIA2>
+            <TxtHeaderDetail_GIA_NT2 Ref="27" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.66,0,1.54,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtHeaderDetail_GIA_NT2</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <Text>Giá ngoại tệ</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </TxtHeaderDetail_GIA_NT2>
+            <V_StartLine_HeaderGIA_NT2 Ref="28" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>6.66,0,0,0</ClientRectangle>
+              <Name>V_StartLine_HeaderGIA_NT2</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <ReferenceToGuid>917dfdc399a24e119ec3adae68681b58</ReferenceToGuid>
+            </V_StartLine_HeaderGIA_NT2>
+            <V_EndLine_HeaderGIA_NT2 Ref="29" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.5,0,0</ClientRectangle>
+              <Name>V_EndLine_HeaderGIA_NT2</Name>
+              <Page isRef="5" />
+              <Parent isRef="11" />
+              <ReferenceToGuid>917dfdc399a24e119ec3adae68681b58</ReferenceToGuid>
+            </V_EndLine_HeaderGIA_NT2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </HeaderBand>
+        <DataBand Ref="30" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,0,0,0.2</ClientRectangle>
+          <Components isList="true" count="21">
+            <H_Line Ref="31" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0,0.2,8.2,0.01</ClientRectangle>
+              <Color>Black</Color>
+              <EndCap Ref="32" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>H_Line</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <StartCap Ref="33" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+              <Style>Dot</Style>
+            </H_Line>
+            <V_StartLine_DataMA_VT Ref="34" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>0,0,0,0</ClientRectangle>
+              <Name>V_StartLine_DataMA_VT</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>42e0526119cf424f9270bf0224d0a6c5</ReferenceToGuid>
+            </V_StartLine_DataMA_VT>
+            <V_EndLine_DataMA_VT Ref="35" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.2,0,0</ClientRectangle>
+              <Name>V_EndLine_DataMA_VT</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>42e0526119cf424f9270bf0224d0a6c5</ReferenceToGuid>
+            </V_EndLine_DataMA_VT>
+            <TxtDataDetail_MA_VT Ref="36" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,1.02,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtDataDetail_MA_VT</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <Text>{Table0.MA_VT}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </TxtDataDetail_MA_VT>
+            <V_StartLine_DataNGAY_BAN Ref="37" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>1.02,0,0,0</ClientRectangle>
+              <Name>V_StartLine_DataNGAY_BAN</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>6520a766305f41d78e290d04999f537c</ReferenceToGuid>
+            </V_StartLine_DataNGAY_BAN>
+            <V_EndLine_DataNGAY_BAN Ref="38" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.2,0,0</ClientRectangle>
+              <Name>V_EndLine_DataNGAY_BAN</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>6520a766305f41d78e290d04999f537c</ReferenceToGuid>
+            </V_EndLine_DataNGAY_BAN>
+            <TxtDataDetail_NGAY_BAN Ref="39" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.02,0,1.02,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtDataDetail_NGAY_BAN</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <Text>{IIF(Table0.NGAY_BAN&lt;="01.01.1900","",Table0.NGAY_BAN)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="40" type="DateFormat" isKey="true">
+                <NullDisplay />
+                <StringFormat>dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </TxtDataDetail_NGAY_BAN>
+            <V_StartLine_DataGIA3 Ref="41" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>2.04,0,0,0</ClientRectangle>
+              <Name>V_StartLine_DataGIA3</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>eefa5c560d4e4b66bad10fcf8b87e8ec</ReferenceToGuid>
+            </V_StartLine_DataGIA3>
+            <V_EndLine_DataGIA3 Ref="42" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.2,0,0</ClientRectangle>
+              <Name>V_EndLine_DataGIA3</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>eefa5c560d4e4b66bad10fcf8b87e8ec</ReferenceToGuid>
+            </V_EndLine_DataGIA3>
+            <TxtDataDetail_GIA3 Ref="43" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>2.04,0,1.54,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtDataDetail_GIA3</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <Text>{Table0.GIA3}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="44" type="CustomFormat" isKey="true">
+                <StringFormat>### ### ### ###</StringFormat>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </TxtDataDetail_GIA3>
+            <V_StartLine_DataGIA_NT3 Ref="45" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>3.58,0,0,0</ClientRectangle>
+              <Name>V_StartLine_DataGIA_NT3</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>a3642977323a4b788c1d41c56eb66299</ReferenceToGuid>
+            </V_StartLine_DataGIA_NT3>
+            <V_EndLine_DataGIA_NT3 Ref="46" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.2,0,0</ClientRectangle>
+              <Name>V_EndLine_DataGIA_NT3</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>a3642977323a4b788c1d41c56eb66299</ReferenceToGuid>
+            </V_EndLine_DataGIA_NT3>
+            <TxtDataDetail_GIA_NT3 Ref="47" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>3.58,0,1.54,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtDataDetail_GIA_NT3</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <Text>{Table0.GIA_NT3}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="48" type="CustomFormat" isKey="true">
+                <StringFormat>### ### ### ###</StringFormat>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </TxtDataDetail_GIA_NT3>
+            <V_StartLine_DataGIA2 Ref="49" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>5.12,0,0,0</ClientRectangle>
+              <Name>V_StartLine_DataGIA2</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>a7e221b7fccd475382e97a38217ffed3</ReferenceToGuid>
+            </V_StartLine_DataGIA2>
+            <V_EndLine_DataGIA2 Ref="50" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.2,0,0</ClientRectangle>
+              <Name>V_EndLine_DataGIA2</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>a7e221b7fccd475382e97a38217ffed3</ReferenceToGuid>
+            </V_EndLine_DataGIA2>
+            <TxtDataDetail_GIA2 Ref="51" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>5.12,0,1.54,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtDataDetail_GIA2</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <Text>{Table0.GIA2}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="52" type="CustomFormat" isKey="true">
+                <StringFormat>### ### ### ###</StringFormat>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </TxtDataDetail_GIA2>
+            <V_StartLine_DataGIA_NT2 Ref="53" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>6.66,0,0,0</ClientRectangle>
+              <Name>V_StartLine_DataGIA_NT2</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>2d2956308f894fb4b02baec678926166</ReferenceToGuid>
+            </V_StartLine_DataGIA_NT2>
+            <V_EndLine_DataGIA_NT2 Ref="54" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.2,0,0</ClientRectangle>
+              <Name>V_EndLine_DataGIA_NT2</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>2d2956308f894fb4b02baec678926166</ReferenceToGuid>
+            </V_EndLine_DataGIA_NT2>
+            <TxtDataDetail_GIA_NT2 Ref="55" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>6.66,0,1.54,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtDataDetail_GIA_NT2</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <Text>{Table0.GIA_NT2}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="56" type="CustomFormat" isKey="true">
+                <StringFormat>### ### ### ###</StringFormat>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </TxtDataDetail_GIA_NT2>
+            <V_StartLine_DataEndGIA_NT2 Ref="57" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>8.2,0,0,0</ClientRectangle>
+              <Name>V_StartLine_DataEndGIA_NT2</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>edee1d8dae75449c8dfe427c3846e166</ReferenceToGuid>
+            </V_StartLine_DataEndGIA_NT2>
+            <V_EndLine_DataEndGIA_NT2 Ref="58" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.2,0,0</ClientRectangle>
+              <Name>V_EndLine_DataEndGIA_NT2</Name>
+              <Page isRef="5" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>edee1d8dae75449c8dfe427c3846e166</ReferenceToGuid>
+            </V_EndLine_DataEndGIA_NT2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>Table0</DataSourceName>
+          <EvenStyle>StyleData1</EvenStyle>
+          <Filters isList="true" count="0" />
+          <Name>DataBand</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <Sort isList="true" count="0" />
+        </DataBand>
+        <FooterBand Ref="59" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0,0,1</ClientRectangle>
+          <Components isList="true" count="3">
+            <H_Footer_Line Ref="60" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0,0,8.2,0.01</ClientRectangle>
+              <Color>Black</Color>
+              <EndCap Ref="61" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>H_Footer_Line</Name>
+              <Page isRef="5" />
+              <Parent isRef="59" />
+              <StartCap Ref="62" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </H_Footer_Line>
+            <TxtM_Cap_Ng_LB Ref="63" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.2,0.2,2,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtM_Cap_Ng_LB</Name>
+              <Page isRef="5" />
+              <Parent isRef="59" />
+              <Text>Người lập biểu</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TxtM_Cap_Ng_LB>
+            <TxtM_Nguoi_LB Ref="64" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.2,0.8,2,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,14,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtM_Nguoi_LB</Name>
+              <Page isRef="5" />
+              <Parent isRef="59" />
+              <Text>{M_TEN_NLB}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TxtM_Nguoi_LB>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>FooterBand</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </FooterBand>
+        <FooterPage Ref="65" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0,0,0.2</ClientRectangle>
+          <Components isList="true" count="3">
+            <H_FooterPage_Line Ref="66" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0,0,8.2,0.01</ClientRectangle>
+              <Color>Black</Color>
+              <EndCap Ref="67" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>H_FooterPage_Line</Name>
+              <Page isRef="5" />
+              <Parent isRef="65" />
+              <StartCap Ref="68" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </H_FooterPage_Line>
+            <TxtFooter_PageNumber Ref="69" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.2,0,1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtFooter_PageNumber</Name>
+              <Page isRef="5" />
+              <Parent isRef="65" />
+              <Text>Trang {PageNumber}/{TotalPageCount}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TxtFooter_PageNumber>
+            <TxtFooter_Time Ref="70" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,3,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8</Font>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtFooter_Time</Name>
+              <Page isRef="5" />
+              <Parent isRef="65" />
+              <Text>{Time}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="71" type="DateFormat" isKey="true">
+                <NullDisplay />
+                <StringFormat>dd/MM/yyyy HH:mm:ss</StringFormat>
+              </TextFormat>
+              <VertAlignment>Center</VertAlignment>
+            </TxtFooter_Time>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>FooterPage</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </FooterPage>
+        <V_Line_HeaderMA_VT Ref="72" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>0,0,0.01,4</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="73" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>a52a003c40a64fc5a96ed44e015150b8</Guid>
+          <Name>V_Line_HeaderMA_VT</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <StartCap Ref="74" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </V_Line_HeaderMA_VT>
+        <V_Line_DataMA_VT Ref="75" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>0,0,0.01,4</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="76" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>42e0526119cf424f9270bf0224d0a6c5</Guid>
+          <Name>V_Line_DataMA_VT</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <StartCap Ref="77" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </V_Line_DataMA_VT>
+        <V_Line_HeaderNGAY_BAN Ref="78" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>0,0,0.01,4</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="79" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>ff9277582f8e4c5baacae85018242fa5</Guid>
+          <Name>V_Line_HeaderNGAY_BAN</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <StartCap Ref="80" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </V_Line_HeaderNGAY_BAN>
+        <V_Line_DataNGAY_BAN Ref="81" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>0,0,0.01,4</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="82" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>6520a766305f41d78e290d04999f537c</Guid>
+          <Name>V_Line_DataNGAY_BAN</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <StartCap Ref="83" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </V_Line_DataNGAY_BAN>
+        <V_Line_HeaderGIA3 Ref="84" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>0,0,0.01,4</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="85" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>535daec4aefb477ebf1eb9790297e85b</Guid>
+          <Name>V_Line_HeaderGIA3</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <StartCap Ref="86" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </V_Line_HeaderGIA3>
+        <V_Line_DataGIA3 Ref="87" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>0,0,0.01,4</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="88" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>eefa5c560d4e4b66bad10fcf8b87e8ec</Guid>
+          <Name>V_Line_DataGIA3</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <StartCap Ref="89" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </V_Line_DataGIA3>
+        <V_Line_HeaderGIA_NT3 Ref="90" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>0,0,0.01,4</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="91" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>f5971ef0089c4d629fef1523f02b0fdb</Guid>
+          <Name>V_Line_HeaderGIA_NT3</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <StartCap Ref="92" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </V_Line_HeaderGIA_NT3>
+        <V_Line_DataGIA_NT3 Ref="93" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>0,0,0.01,4</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="94" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>a3642977323a4b788c1d41c56eb66299</Guid>
+          <Name>V_Line_DataGIA_NT3</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <StartCap Ref="95" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </V_Line_DataGIA_NT3>
+        <V_Line_HeaderGIA2 Ref="96" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>0,0,0.01,4</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="97" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>58c6a23d160743759e124e86944f3714</Guid>
+          <Name>V_Line_HeaderGIA2</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <StartCap Ref="98" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </V_Line_HeaderGIA2>
+        <V_Line_DataGIA2 Ref="99" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>0,0,0.01,4</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="100" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>a7e221b7fccd475382e97a38217ffed3</Guid>
+          <Name>V_Line_DataGIA2</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <StartCap Ref="101" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </V_Line_DataGIA2>
+        <V_Line_HeaderGIA_NT2 Ref="102" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>0,0,0.01,4</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="103" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>917dfdc399a24e119ec3adae68681b58</Guid>
+          <Name>V_Line_HeaderGIA_NT2</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <StartCap Ref="104" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </V_Line_HeaderGIA_NT2>
+        <V_Line_DataGIA_NT2 Ref="105" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>0,0,0.01,4</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="106" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>2d2956308f894fb4b02baec678926166</Guid>
+          <Name>V_Line_DataGIA_NT2</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <StartCap Ref="107" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </V_Line_DataGIA_NT2>
+        <V_Line_DataEndGIA_NT2 Ref="108" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>0,0,0.01,4</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="109" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>edee1d8dae75449c8dfe427c3846e166</Guid>
+          <Name>V_Line_DataEndGIA_NT2</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <StartCap Ref="110" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </V_Line_DataEndGIA_NT2>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>29e00fc639ae435e86d54bc4dd245cc9</Guid>
+      <Margins>0.15,0.15,0.15,0.15</Margins>
+      <Name>Page1</Name>
+      <PageHeight>11</PageHeight>
+      <PageWidth>8.5</PageWidth>
+      <PaperSize>Letter</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="111" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="112" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>4/3/2017 8:35:19 AM</ReportChanged>
+  <ReportCreated>4/3/2017 8:35:19 AM</ReportCreated>
+  <ReportFile />
+  <ReportGuid>31e7c78c8a854a82a1f3008c220fc983</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2011.3.1200</ReportVersion>
+  <Script>Imports System
+Imports System.Drawing
+Imports System.Windows.Forms
+Imports System.Data
+Imports Stimulsoft.Controls
+Imports Stimulsoft.Base.Drawing
+Imports Stimulsoft.Report
+Imports Stimulsoft.Report.Dialogs
+Imports Stimulsoft.Report.Components
+
+Namespace Reports
+    Public Class Report
+        Inherits Stimulsoft.Report.StiReport
+
+        Public Sub New()
+            MyBase.New
+            Me.InitializeComponent
+        End Sub
+
+        #Region "StiReport Designer generated code - do not modify"
+        #End Region 'StiReport Designer generated code - do not modify
+    End Class
+End Namespace
+</Script>
+  <ScriptLanguage>VB</ScriptLanguage>
+  <Styles isList="true" count="1">
+    <StyleData1 Ref="113" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <AllowUseFont>False</AllowUseFont>
+      <AllowUseTextBrush>False</AllowUseTextBrush>
+      <Brush>[240:237:232]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,8</Font>
+      <Name>StyleData1</Name>
+      <TextBrush>Blue</TextBrush>
+    </StyleData1>
+  </Styles>
+</StiSerializer>

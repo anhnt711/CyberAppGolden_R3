@@ -1,0 +1,2646 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="4">
+      <Table0 Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Table0</Alias>
+        <Columns isList="true" count="23">
+          <value>Ma_Kh,System.String</value>
+          <value>Dai_Dien1,System.String</value>
+          <value>Chuc_Vu1,System.String</value>
+          <value>Dai_Dien2,System.String</value>
+          <value>Chuc_Vu2,System.String</value>
+          <value>Dai_Dien3,System.String</value>
+          <value>Chuc_Vu3,System.String</value>
+          <value>Dai_Dien4,System.String</value>
+          <value>Chuc_Vu4,System.String</value>
+          <value>Tai,System.String</value>
+          <value>Hom_Nay,System.DateTime</value>
+          <value>strHom_Nay,System.String</value>
+          <value>ten_kh,System.String</value>
+          <value>Dia_Chi,System.String</value>
+          <value>Dien_Thoai,System.String</value>
+          <value>E_Mail,System.String</value>
+          <value>Ngay_CT2,System.DateTime</value>
+          <value>strNgay_CT2,System.String</value>
+          <value>strNgay_CT2_NT,System.String</value>
+          <value>M_Du_Ck,System.Decimal</value>
+          <value>M_Du_Ck_NT,System.Decimal</value>
+          <value>Bang_Chu,System.String</value>
+          <value>Bang_Chu1,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Table0</Name>
+        <NameInSource>CyberDataSource.Table0</NameInSource>
+      </Table0>
+      <Table1 Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Table1</Alias>
+        <Columns isList="true" count="19">
+          <value>Tk,System.String</value>
+          <value>Ten_Tk,System.String</value>
+          <value>Ma_kh,System.String</value>
+          <value>Ten_kh,System.String</value>
+          <value>Ngay_Ct1,System.DateTime</value>
+          <value>Ngay_Ct2,System.DateTime</value>
+          <value>Tu_Ngay,System.String</value>
+          <value>Du_Dk,System.Decimal</value>
+          <value>Du_Dk_NT,System.Decimal</value>
+          <value>Ps_No,System.Decimal</value>
+          <value>Ps_No_Nt,System.Decimal</value>
+          <value>Ps_Co,System.Decimal</value>
+          <value>Ps_Co_Nt,System.Decimal</value>
+          <value>Du_Ck,System.Decimal</value>
+          <value>Du_Ck_NT,System.Decimal</value>
+          <value>S1,System.String</value>
+          <value>S2,System.String</value>
+          <value>S3,System.String</value>
+          <value>S4,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Table1</Name>
+        <NameInSource>CyberDataSource.Table1</NameInSource>
+      </Table1>
+      <Table2 Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Table2</Alias>
+        <Columns isList="true" count="12">
+          <value>Stt,System.Decimal</value>
+          <value>CP_Name,System.String</value>
+          <value>Field_Name,System.String</value>
+          <value>Field_Type,System.String</value>
+          <value>Field_Head1,System.String</value>
+          <value>Field_Head2,System.String</value>
+          <value>Field_Width,System.Decimal</value>
+          <value>Field_Reonly,System.Decimal</value>
+          <value>Format,System.String</value>
+          <value>CellMerge,System.Decimal</value>
+          <value>BackColor,System.String</value>
+          <value>BackColor2,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Table2</Name>
+        <NameInSource>CyberDataSource.Table2</NameInSource>
+      </Table2>
+      <Table3 Ref="5" type="DataTableSource" isKey="true">
+        <Alias>Table3</Alias>
+        <Columns isList="true" count="16">
+          <value>Ma_Phan_He,System.String</value>
+          <value>CP_Name,System.String</value>
+          <value>Title1,System.String</value>
+          <value>Title2,System.String</value>
+          <value>Helpname,System.String</value>
+          <value>Report,System.String</value>
+          <value>ColFrozen,System.Decimal</value>
+          <value>RowFrozen,System.Decimal</value>
+          <value>Export_Excel,System.Decimal</value>
+          <value>Export_Doc,System.Decimal</value>
+          <value>Export_Pdf,System.Decimal</value>
+          <value>Export_Html,System.Decimal</value>
+          <value>Export_Text,System.Decimal</value>
+          <value>Print,System.Decimal</value>
+          <value>Copy,System.Decimal</value>
+          <value>Acti,System.Decimal</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Table3</Name>
+        <NameInSource>CyberDataSource.Table3</NameInSource>
+      </Table3>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="13">
+      <value>,M_DIA_CHI,M_DIA_CHI,System.String,Số_x0020_777_x0020_Đ._x0020_Mê_x0020_Linh_x002C__x0020_P._x0020_Khai_x0020_Quang_x002C__x0020_TP_x0020_Vĩnh_x0020_Yên_x002C__x0020_Tỉnh_x0020_Vĩnh_x0020_Phúc,False,False</value>
+      <value>,M_DIEN_THOAI,M_DIEN_THOAI,System.String,_x0030_903.296.818,False,False</value>
+      <value>,M_EMAIL,M_EMAIL,System.String,,False,False</value>
+      <value>,M_FAX,M_FAX,System.String,_x0030_4.3996.4617,False,False</value>
+      <value>,M_MA_SO_THUE,M_MA_SO_THUE,System.String,_x0030_101407560,False,False</value>
+      <value>,M_TEN_CTY,M_TEN_CTY,System.String,Công_x0020_ty_x0020_cổ_x0020_phần_x0020_dược_x0020_phẩm_x0020_Vĩnh_x0020_Phúc,False,False</value>
+      <value>,M_TEN_TCTY,M_TEN_TCTY,System.String,,False,False</value>
+      <value>,M_TEN_GD,M_TEN_GD,System.String,Đỗ_x0020_Ngọc_x0020_Sơn,False,False</value>
+      <value>,M_TEN_KTT,M_TEN_KTT,System.String,Vũ_x0020_Thị_x0020_Bình,False,False</value>
+      <value>,M_WEBSITE,M_WEBSITE,System.String,,False,False</value>
+      <value>,M_TEN_NLB,M_TEN_NLB,System.String,Admin:_x0020_Hotline_x0020_1900.54.54.34111,False,False</value>
+      <value>,M_TITLE1,M_TITLE1,System.String,BIÊN_x0020_BẢN_x0020_ĐỐI_x0020_CHIẾU_x0020_CÔNG_x0020_NỢ,False,False</value>
+      <value>,M_TITLE2,M_TITLE2,System.String,BIÊN_x0020_BẢN_x0020_ĐỐI_x0020_CHIẾU_x0020_CÔNG_x0020_NỢ,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <NumberOfPass>DoublePass</NumberOfPass>
+  <Pages isList="true" count="1">
+    <Page1 Ref="6" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <FooterPage Ref="7" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,42.8,8.2,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>FooterPage</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </FooterPage>
+        <TitleBand Ref="8" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.2,8.2,7.4</ClientRectangle>
+          <Components isList="true" count="33">
+            <TxtTiTle_M_TEN_CTY Ref="9" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.1,8.2,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,17,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtTiTle_M_TEN_CTY</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{ToUpperCase(M_TEN_CTY)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </TxtTiTle_M_TEN_CTY>
+            <TxtTiTle_M_DIA_CHI Ref="10" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.4,8.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtTiTle_M_DIA_CHI</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{M_DIA_CHI}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TxtTiTle_M_DIA_CHI>
+            <TxtTiTle_M_TITLE1 Ref="11" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,1.3,8.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,20,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtTiTle_M_TITLE1</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{M_TITLE1}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TxtTiTle_M_TITLE1>
+            <Text1 Ref="12" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.2,1.9,5.6,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>Hôm nay, ngày {Format("{0:dd/MM/yyyy}",Table0.Hom_Nay)}, Chúng tôi gồm có:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text1>
+            <Text2 Ref="13" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.8,2.3,5.7,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold</Font>
+              <Guid>e54e692d14324bd489fe4e89a4bd0e7a</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{ToUpperCase("I. Bên bán hàng (Bên A):")} {ToUpperCase(M_TEN_CTY)}
+	</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text2>
+            <Text3 Ref="14" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.8,2.6,7.4,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>e1d60301f01940f784bef410702bd00d</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>- Số hiệu TK: 42 510 000 000 088 - Ngân hàng TMCP Đầu tư và phát triển Vĩnh Phúc</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text3>
+            <Text5 Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.8,2.9,7.4,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>319d7ccc74e84d47b4fd574cf22134ea</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>- Điện thoại: {M_DIEN_THOAI}, Fax: {M_FAX}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text5>
+            <Text6 Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.8,3.2,0.8,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold| Underline</Font>
+              <Guid>71157db296544522956f653c34dad0d5</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>Đại diện:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text6>
+            <Text7 Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.2,3.5,0.9,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>240dbe0437c8445d933ff0d651f14168</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>1- Ông (Bà): </Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text8 Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.2,3.7,0.9,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>c677b83c71684ce0a923a6b872885ac6</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>2- Ông (Bà): </Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text9 Ref="19" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,3.5,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>f8ff953d99b247e89b806947e50006ad</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>Chức vụ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text10 Ref="20" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,3.7,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>76835d69de0e44ceb042f471ab5f1415</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>Chức vụ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text11 Ref="21" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.8,4,7.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold</Font>
+              <Guid>4dc4507af31543daa3b0d612fe3edfca</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{ToUpperCase("I. Bên mua hàng (Bên B):")}  {ToUpperCase(Table0.ten_kh)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text11>
+            <Text12 Ref="22" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.8,4.5,7.4,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>5c141d6e2df843b89b00c0eb6764ea20</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>- Địa chỉ: {Table0.Dia_Chi}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text12>
+            <Text13 Ref="23" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.8,4.8,7.4,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>b2591ce0202e4cc6a592abe3a8243197</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>- Điện thoại: {Table0.Dien_Thoai}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text13>
+            <Text14 Ref="24" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.8,5.1,0.8,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold| Underline</Font>
+              <Guid>40d6fde5d02a4239a6d3299c7691c49e</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>Đại diện:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text14>
+            <Text15 Ref="25" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.2,5.4,0.9,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>cd2e1e438aa242efae640b6110b5931e</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>1- Ông (Bà): </Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text15>
+            <Text16 Ref="26" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.2,5.6,0.9,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>3a6920d84b9041ff94d20e6651574d5c</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>2- Ông (Bà): </Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text17 Ref="27" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,5.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>ce2a91a1c2344dcb8574bcc7fa407db9</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>Chức vụ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <Text18 Ref="28" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,5.6,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>edff5b4a1b0d43009b2641b7fd9bbd14</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>Chức vụ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+            <Text4 Ref="29" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.8,5.9,7.2,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>a2eda9c6e8a348dbba6a89ffdc7154c3</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>&lt;letter-spacing="2"&gt; &lt;/letter-spacing&gt;Hai bên đã cùng nhau tiến hành đối chiếu công nợ đến hết ngày {Format("{0:dd/MM/yyyy}",Table0.Ngay_CT2)}, Bên B còn nợ Bên A số tiền: &lt;b&gt;{Format("{0:N0}", Table0.M_Du_Ck)}&lt;/b&gt; đồng.
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;b&gt;&lt;i&gt;{Table0.Bang_Chu}&lt;/b&gt;&lt;/i&gt;
+&lt;br/&gt;
+&lt;i&gt;(Có bảng kê chi tiết công nợ kèm theo)&lt;/i&gt;</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text4>
+            <Text19 Ref="30" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.8,6.9,7.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>0886d3ac2ead477c97d0980354faf197</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>	Biên bản này được lập thành 02 bản, mỗi bên giữ một bản, có giá trị pháp lý như nhau và mọi người cùng nhất trí ký tên dưới đây.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text19>
+            <Text25 Ref="31" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.6,8.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>Tel: {M_DIEN_THOAI}, Fax: {M_FAX}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text25>
+            <Text26 Ref="32" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.8,8.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{M_WEBSITE}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text26>
+            <Text27 Ref="33" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.1,3.5,2.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{Table0.Dai_Dien1}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <Text28 Ref="34" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.3,3.5,2.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{Table0.Chuc_Vu1}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text28>
+            <Text29 Ref="35" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.1,3.7,2.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <Guid>7248e082322845e0ac016a264843e649</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{Table0.Dai_Dien2}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text29>
+            <Text30 Ref="36" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.3,3.7,2.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <Guid>dfb57606534341f9b31f314518b584f6</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{Table0.Chuc_Vu2}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text30>
+            <Text31 Ref="37" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.1,5.4,2.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <Guid>49220cc234ef4e3ba1238f343e2a3d27</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{Table0.Dai_Dien3}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text31>
+            <Text32 Ref="38" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.1,5.6,2.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <Guid>121afcfc54524dc599673eab6bde3937</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{Table0.Dai_Dien4}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <Text33 Ref="39" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.3,5.4,2.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <Guid>b5e67dd3db7248e19bdf435c9b6f2758</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{Table0.Chuc_Vu3}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text33>
+            <Text34 Ref="40" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.3,5.6,2.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <Guid>28a0180cee4040ff80de25915cec4136</Guid>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <Text>{Table0.Chuc_Vu4}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text34>
+            <HorizontalLinePrimitive1 Ref="41" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>1.1,1.1,6.1,0.01</ClientRectangle>
+              <Color>Black</Color>
+              <EndCap Ref="42" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>HorizontalLinePrimitive1</Name>
+              <Page isRef="6" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <StartCap Ref="43" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+              <Style>Double</Style>
+            </HorizontalLinePrimitive1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>TitleBand</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </TitleBand>
+        <DataBand Ref="44" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,8,8.2,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataSourceName>Table0</DataSourceName>
+          <EvenStyle>StyleData1</EvenStyle>
+          <Filters isList="true" count="0" />
+          <Name>DataBand</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Sort isList="true" count="0" />
+        </DataBand>
+        <FooterBand Ref="45" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,8.4,8.2,1.9</ClientRectangle>
+          <Components isList="true" count="6">
+            <TxtM_Cap_Ng_LB Ref="46" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.1,0.1,2.2,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>TxtM_Cap_Ng_LB</Name>
+              <Page isRef="6" />
+              <Parent isRef="45" />
+              <Text>ĐẠI DIỆN BÊN MUA HÀNG</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </TxtM_Cap_Ng_LB>
+            <Text20 Ref="47" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.3,0.1,2.4,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold</Font>
+              <Guid>94af4b4a17584c49b17c64be89ce83a3</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="6" />
+              <Parent isRef="45" />
+              <Text>ĐẠI DIỆN BÊN BÁN HÀNG</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text21 Ref="48" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.8,0.5,0.9,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>5d4f41e9e85d47518d41ab67f8aa5f6d</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="6" />
+              <Parent isRef="45" />
+              <Text>Giám đốc</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text21>
+            <Text22 Ref="49" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.6,0.5,1.1,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>7fa8f2f48224476995dc8cc8f06ed7b7</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="6" />
+              <Parent isRef="45" />
+              <Text>Kế toán trưởng</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text23 Ref="50" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.8,0.5,0.9,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>eb9d00ee3bd84d82ac2881ed17143a54</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="6" />
+              <Parent isRef="45" />
+              <Text>Giám đốc</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text24 Ref="51" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.7,0.5,1.2,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>096c7b3de71f4d96af5cab86f3a942a8</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0.01,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="6" />
+              <Parent isRef="45" />
+              <Text>Kế toán công nợ</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>FooterBand</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </FooterBand>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>1cbe977e4e3a475a8aaf78c6344c1ed4</Guid>
+      <LargeHeight>True</LargeHeight>
+      <Margins>0.15,0.15,0.15,0.15</Margins>
+      <Name>Page1</Name>
+      <PageHeight>11</PageHeight>
+      <PageWidth>8.5</PageWidth>
+      <PaperSize>Letter</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="52" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="53" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>5/23/2017 9:26:55 AM</ReportChanged>
+  <ReportCreated>5/3/2017 7:16:39 PM</ReportCreated>
+  <ReportFile>F:\Project\CyberAppGolden_New\Repo\ARSO1_BBDCCN.mrt</ReportFile>
+  <ReportGuid>1c1ebade67eb43b7b35935c997380f18</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2011.3.1200</ReportVersion>
+  <Script>Imports System
+Imports System.Drawing
+Imports System.Windows.Forms
+Imports System.Data
+Imports Stimulsoft.Controls
+Imports Stimulsoft.Base.Drawing
+Imports Stimulsoft.Report
+Imports Stimulsoft.Report.Dialogs
+Imports Stimulsoft.Report.Components
+
+Namespace Reports
+    Public Class Report
+        Inherits Stimulsoft.Report.StiReport
+
+        Public Sub New()
+            MyBase.New
+            Me.InitializeComponent
+        End Sub
+
+        #Region "StiReport Designer generated code - do not modify"
+        Public M_DIA_CHI As String
+        Public M_DIEN_THOAI As String
+        Public M_EMAIL As String
+        Public M_FAX As String
+        Public M_MA_SO_THUE As String
+        Public M_TEN_CTY As String
+        Public M_TEN_TCTY As String
+        Public M_TEN_GD As String
+        Public M_TEN_KTT As String
+        Public M_WEBSITE As String
+        Public M_TEN_NLB As String
+        Public M_TITLE1 As String
+        Public M_TITLE2 As String
+        Public Page1 As Stimulsoft.Report.Components.StiPage
+        Public FooterPage As Stimulsoft.Report.Components.StiPageFooterBand
+        Public TitleBand As Stimulsoft.Report.Components.StiReportTitleBand
+        Public TxtTiTle_M_TEN_CTY As Stimulsoft.Report.Components.StiText
+        Public TxtTiTle_M_DIA_CHI As Stimulsoft.Report.Components.StiText
+        Public TxtTiTle_M_TITLE1 As Stimulsoft.Report.Components.StiText
+        Public Text1 As Stimulsoft.Report.Components.StiText
+        Public Text2 As Stimulsoft.Report.Components.StiText
+        Public Text3 As Stimulsoft.Report.Components.StiText
+        Public Text5 As Stimulsoft.Report.Components.StiText
+        Public Text6 As Stimulsoft.Report.Components.StiText
+        Public Text7 As Stimulsoft.Report.Components.StiText
+        Public Text8 As Stimulsoft.Report.Components.StiText
+        Public Text9 As Stimulsoft.Report.Components.StiText
+        Public Text10 As Stimulsoft.Report.Components.StiText
+        Public Text11 As Stimulsoft.Report.Components.StiText
+        Public Text12 As Stimulsoft.Report.Components.StiText
+        Public Text13 As Stimulsoft.Report.Components.StiText
+        Public Text14 As Stimulsoft.Report.Components.StiText
+        Public Text15 As Stimulsoft.Report.Components.StiText
+        Public Text16 As Stimulsoft.Report.Components.StiText
+        Public Text17 As Stimulsoft.Report.Components.StiText
+        Public Text18 As Stimulsoft.Report.Components.StiText
+        Public Text4 As Stimulsoft.Report.Components.StiText
+        Public Text19 As Stimulsoft.Report.Components.StiText
+        Public Text25 As Stimulsoft.Report.Components.StiText
+        Public Text26 As Stimulsoft.Report.Components.StiText
+        Public Text27 As Stimulsoft.Report.Components.StiText
+        Public Text28 As Stimulsoft.Report.Components.StiText
+        Public Text29 As Stimulsoft.Report.Components.StiText
+        Public Text30 As Stimulsoft.Report.Components.StiText
+        Public Text31 As Stimulsoft.Report.Components.StiText
+        Public Text32 As Stimulsoft.Report.Components.StiText
+        Public Text33 As Stimulsoft.Report.Components.StiText
+        Public Text34 As Stimulsoft.Report.Components.StiText
+        Public Image1 As Stimulsoft.Report.Components.StiImage
+        Public HorizontalLinePrimitive1 As Stimulsoft.Report.Components.StiHorizontalLinePrimitive
+        Public DataBand As Stimulsoft.Report.Components.StiDataBand
+        Public FooterBand As Stimulsoft.Report.Components.StiFooterBand
+        Public TxtM_Cap_Ng_LB As Stimulsoft.Report.Components.StiText
+        Public Text20 As Stimulsoft.Report.Components.StiText
+        Public Text21 As Stimulsoft.Report.Components.StiText
+        Public Text22 As Stimulsoft.Report.Components.StiText
+        Public Text23 As Stimulsoft.Report.Components.StiText
+        Public Text24 As Stimulsoft.Report.Components.StiText
+        Public TxtFooter_PageNumber As Stimulsoft.Report.Components.StiText
+        Public TxtFooter_Time As Stimulsoft.Report.Components.StiText
+        Public TxtM_Nguoi_LB As Stimulsoft.Report.Components.StiText
+        Public Text35 As Stimulsoft.Report.Components.StiText
+        Public Page1_Watermark As Stimulsoft.Report.Components.StiWatermark
+        Public Report_PrinterSettings As Stimulsoft.Report.Print.StiPrinterSettings
+        Public StyleStyleData1 As Stimulsoft.Report.StiStyle
+        Public Table0 As Table0DataSource
+        Public Table1 As Table1DataSource
+        Public Table2 As Table2DataSource
+        Public Table3 As Table3DataSource
+        
+        Public Sub TxtTiTle_M_TEN_CTY__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ToString(sender, M_TEN_CTY, true)
+        End Sub
+        
+        Public Sub TxtTiTle_M_DIA_CHI__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ToString(sender, M_DIA_CHI, true)
+        End Sub
+        
+        Public Sub TxtTiTle_M_TITLE1__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ToString(sender, M_TITLE1, true)
+        End Sub
+        
+        Public Sub Text1__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "Hôm nay, ngày " + ToString(sender, Format("{0:MM/dd/yyyy}",Table0.Hom_Nay), true) + ", Chúng tôi gồm có:"
+        End Sub
+        
+        Public Sub Text2__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "I. Bên bán hàng (Bên A): CÔNG TY CỔ PHẦN DƯỢC PHẨM VĨNH PHÚC"
+        End Sub
+        
+        Public Sub Text3__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "- Số hiệu TK: 42 510 000 000 088 - Ngân hàng TMCP Đầu tư và phát triển Vĩnh Phúc"
+        End Sub
+        
+        Public Sub Text5__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "- Điện thoại: 0211.3862706 - Fax: 02113 726 996"
+        End Sub
+        
+        Public Sub Text6__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "Đại diện:"
+        End Sub
+        
+        Public Sub Text7__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "1- Ông (Bà): "
+        End Sub
+        
+        Public Sub Text8__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "2- Ông (Bà): "
+        End Sub
+        
+        Public Sub Text9__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "Chức vụ:"
+        End Sub
+        
+        Public Sub Text10__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "Chức vụ:"
+        End Sub
+        
+        Public Sub Text11__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "II. Bên mua hàng (Bên B): " + ToString(sender, Table0.ten_kh, true)
+        End Sub
+        
+        Public Sub Text12__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "- Địa chỉ: " + ToString(sender, Table0.Dia_Chi, true)
+        End Sub
+        
+        Public Sub Text13__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "- Điện thoại: " + ToString(sender, Table0.Dien_Thoai, true)
+        End Sub
+        
+        Public Sub Text14__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "Đại diện:"
+        End Sub
+        
+        Public Sub Text15__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "1- Ông (Bà): "
+        End Sub
+        
+        Public Sub Text16__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "2- Ông (Bà): "
+        End Sub
+        
+        Public Sub Text17__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "Chức vụ:"
+        End Sub
+        
+        Public Sub Text18__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "Chức vụ:"
+        End Sub
+        
+        Public Sub Text4__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ""&amp;Microsoft.VisualBasic.ChrW(9)&amp;"Hai bên đã cùng nhau tiến hành đối chiếu công nợ đến hết ngày " + ToString(sender, Format("{0:MM/dd/yyyy}",Table0.Ngay_CT2), true) + ", " + ToString(sender, Table0.ten_kh, true) + " còn nợ Công ty Cổ phần dược phẩm Vĩnh Phúc số tiền: " + ToString(sender, Format("{0:N0}", Table0.M_Du_Ck), true) + " đồng."&amp;Microsoft.VisualBasic.ChrW(13)&amp;Microsoft.VisualBasic.ChrW(10)&amp;Microsoft.VisualBasic.ChrW(13)&amp;Microsoft.VisualBasic.ChrW(10)&amp;"ABC"&amp;Microsoft.VisualBasic.ChrW(13)&amp;Microsoft.VisualBasic.ChrW(10)&amp;"(Có bảng kê chi tiết công nợ kèm theo)"
+        End Sub
+        
+        Public Sub Text19__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ""&amp;Microsoft.VisualBasic.ChrW(9)&amp;"Biên bản này được lập thành 02 bản, mỗi bên giữ một bản, có giá trị pháp lý như "&amp; _ 
+"nhau và mọi người cùng nhất trí ký tên dưới đây."
+        End Sub
+        
+        Public Sub Text25__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "Tel: " + ToString(sender, M_DIEN_THOAI, true) + ", Fax: " + ToString(sender, M_FAX, true)
+        End Sub
+        
+        Public Sub Text26__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ToString(sender, M_WEBSITE, true)
+        End Sub
+        
+        Public Sub Text27__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ToString(sender, Table0.Dai_Dien1, true)
+        End Sub
+        
+        Public Sub Text28__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ToString(sender, Table0.Chuc_Vu1, true)
+        End Sub
+        
+        Public Sub Text29__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ToString(sender, Table0.Dai_Dien2, true)
+        End Sub
+        
+        Public Sub Text30__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ToString(sender, Table0.Chuc_Vu2, true)
+        End Sub
+        
+        Public Sub Text31__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ToString(sender, Table0.Dai_Dien3, true)
+        End Sub
+        
+        Public Sub Text32__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ToString(sender, Table0.Dai_Dien4, true)
+        End Sub
+        
+        Public Sub Text33__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ToString(sender, Table0.Chuc_Vu3, true)
+        End Sub
+        
+        Public Sub Text34__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ToString(sender, Table0.Chuc_Vu4, true)
+        End Sub
+        
+        Public Sub TxtM_Cap_Ng_LB__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "ĐẠI DIỆN BÊN MUA HÀNG"
+        End Sub
+        
+        Public Sub Text20__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "ĐẠI DIỆN BÊN BÁN HÀNG"
+        End Sub
+        
+        Public Sub Text21__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "Giám đốc"
+        End Sub
+        
+        Public Sub Text22__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "Kế toán trưởng"
+        End Sub
+        
+        Public Sub Text23__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "P.Giám đốc"
+        End Sub
+        
+        Public Sub Text24__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "Kế toán công nợ"
+        End Sub
+        
+        Public Sub TxtFooter_PageNumber__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = "#%#Trang {PageNumber}/{TotalPageCount}"
+            e.StoreToPrinted = true
+        End Sub
+        
+        Public Function TxtFooter_PageNumber_GetValue_End(ByVal sender As Stimulsoft.Report.Components.StiComponent) As System.String
+            Return "Trang " + ToString(sender, PageNumber, true) + "/" + ToString(sender, TotalPageCount, true)
+        End Function
+        
+        Public Sub TxtFooter_Time__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = Me.TxtFooter_Time.TextFormat.Format(CheckExcelValue(sender, Time))
+        End Sub
+        
+        Public Sub TxtM_Nguoi_LB__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+            e.Value = ToString(sender, M_TEN_NLB, true)
+        End Sub
+        
+        Public Sub Text35__GetValue(ByVal sender As Object, ByVal e As Stimulsoft.Report.Events.StiGetValueEventArgs)
+           
+        End Sub
+        
+        Public Sub ReportWordsToEnd__EndRender(ByVal sender As Object, ByVal e As System.EventArgs)
+            Me.TxtFooter_PageNumber.SetText(AddressOf TxtFooter_PageNumber_GetValue_End)
+        End Sub
+        
+        Private Sub InitializeComponent()
+            Me.Table3 = New Table3DataSource
+            Me.Table2 = New Table2DataSource
+            Me.Table1 = New Table1DataSource
+            Me.Table0 = New Table0DataSource
+            Me.Dictionary.Variables.Add(New Stimulsoft.Report.Dictionary.StiVariable("", "M_DIA_CHI", "M_DIA_CHI", "", GetType(String), "Số 777 Đ. Mê Linh, P. Khai Quang, TP Vĩnh Yên, Tỉnh Vĩnh Phúc", false, Stimulsoft.Report.Dictionary.StiVariableInitBy.Value, false))
+            Me.Dictionary.Variables.Add(New Stimulsoft.Report.Dictionary.StiVariable("", "M_DIEN_THOAI", "M_DIEN_THOAI", "", GetType(String), "0903.296.818", false, Stimulsoft.Report.Dictionary.StiVariableInitBy.Value, false))
+            Me.Dictionary.Variables.Add(New Stimulsoft.Report.Dictionary.StiVariable("", "M_EMAIL", "M_EMAIL", "", GetType(String), "", false, Stimulsoft.Report.Dictionary.StiVariableInitBy.Value, false))
+            Me.Dictionary.Variables.Add(New Stimulsoft.Report.Dictionary.StiVariable("", "M_FAX", "M_FAX", "", GetType(String), "04.3996.4617", false, Stimulsoft.Report.Dictionary.StiVariableInitBy.Value, false))
+            Me.Dictionary.Variables.Add(New Stimulsoft.Report.Dictionary.StiVariable("", "M_MA_SO_THUE", "M_MA_SO_THUE", "", GetType(String), "0101407560", false, Stimulsoft.Report.Dictionary.StiVariableInitBy.Value, false))
+            Me.Dictionary.Variables.Add(New Stimulsoft.Report.Dictionary.StiVariable("", "M_TEN_CTY", "M_TEN_CTY", "", GetType(String), "Công ty cổ phần dược phẩm Vĩnh Phúc", false, Stimulsoft.Report.Dictionary.StiVariableInitBy.Value, false))
+            Me.Dictionary.Variables.Add(New Stimulsoft.Report.Dictionary.StiVariable("", "M_TEN_TCTY", "M_TEN_TCTY", "", GetType(String), "", false, Stimulsoft.Report.Dictionary.StiVariableInitBy.Value, false))
+            Me.Dictionary.Variables.Add(New Stimulsoft.Report.Dictionary.StiVariable("", "M_TEN_GD", "M_TEN_GD", "", GetType(String), "Đỗ Ngọc Sơn", false, Stimulsoft.Report.Dictionary.StiVariableInitBy.Value, false))
+            Me.Dictionary.Variables.Add(New Stimulsoft.Report.Dictionary.StiVariable("", "M_TEN_KTT", "M_TEN_KTT", "", GetType(String), "Vũ Thị Bình", false, Stimulsoft.Report.Dictionary.StiVariableInitBy.Value, false))
+            Me.Dictionary.Variables.Add(New Stimulsoft.Report.Dictionary.StiVariable("", "M_WEBSITE", "M_WEBSITE", "", GetType(String), "", false, Stimulsoft.Report.Dictionary.StiVariableInitBy.Value, false))
+            Me.Dictionary.Variables.Add(New Stimulsoft.Report.Dictionary.StiVariable("", "M_TEN_NLB", "M_TEN_NLB", "", GetType(String), "Admin: Hotline 1900.54.54.34111", false, Stimulsoft.Report.Dictionary.StiVariableInitBy.Value, false))
+            Me.Dictionary.Variables.Add(New Stimulsoft.Report.Dictionary.StiVariable("", "M_TITLE1", "M_TITLE1", "", GetType(String), "BIÊN BẢN ĐỐI CHIẾU CÔNG NỢ", false, Stimulsoft.Report.Dictionary.StiVariableInitBy.Value, false))
+            Me.Dictionary.Variables.Add(New Stimulsoft.Report.Dictionary.StiVariable("", "M_TITLE2", "M_TITLE2", "", GetType(String), "BIÊN BẢN ĐỐI CHIẾU CÔNG NỢ", false, Stimulsoft.Report.Dictionary.StiVariableInitBy.Value, false))
+            Me.NeedsCompiling = false
+            '
+            'Variables init
+            '
+            Me.M_DIA_CHI = "Số 777 Đ. Mê Linh, P. Khai Quang, TP Vĩnh Yên, Tỉnh Vĩnh Phúc"
+            Me.M_DIEN_THOAI = "0903.296.818"
+            Me.M_EMAIL = ""
+            Me.M_FAX = "04.3996.4617"
+            Me.M_MA_SO_THUE = "0101407560"
+            Me.M_TEN_CTY = "Công ty cổ phần dược phẩm Vĩnh Phúc"
+            Me.M_TEN_TCTY = ""
+            Me.M_TEN_GD = "Đỗ Ngọc Sơn"
+            Me.M_TEN_KTT = "Vũ Thị Bình"
+            Me.M_WEBSITE = ""
+            Me.M_TEN_NLB = "Admin: Hotline 1900.54.54.34111"
+            Me.M_TITLE1 = "BIÊN BẢN ĐỐI CHIẾU CÔNG NỢ"
+            Me.M_TITLE2 = "BIÊN BẢN ĐỐI CHIẾU CÔNG NỢ"
+            Me.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2
+            Me.NumberOfPass = Stimulsoft.Report.StiNumberOfPass.DoublePass
+            Me.ReferencedAssemblies = New System.String() {"System.Dll", "System.Drawing.Dll", "System.Windows.Forms.Dll", "System.Data.Dll", "System.Xml.Dll", "Stimulsoft.Controls.Dll", "Stimulsoft.Base.Dll", "Stimulsoft.Report.Dll"}
+            Me.ReportAlias = "Report"
+            '
+            'ReportChanged
+            '
+            Me.ReportChanged = New DateTime(2017, 5, 4, 8, 30, 56, 665)
+            '
+            'ReportCreated
+            '
+            Me.ReportCreated = New DateTime(2017, 5, 3, 19, 16, 39, 0)
+            Me.ReportFile = "E:\Cyberapp9_DuocVP\Cyberapp9_DuocVP\Repo\ARSO1_BBDCCN.mrt"
+            Me.ReportGuid = "50497feec4464ffdacd9e2528dca5b60"
+            Me.ReportName = "Report"
+            Me.ReportUnit = Stimulsoft.Report.StiReportUnitType.Inches
+            Me.ReportVersion = "2011.3.1200"
+            Me.ScriptLanguage = Stimulsoft.Report.StiReportLanguageType.VB
+            '
+            'Page1
+            '
+            Me.Page1 = New Stimulsoft.Report.Components.StiPage
+            Me.Page1.Guid = "1cbe977e4e3a475a8aaf78c6344c1ed4"
+            Me.Page1.LargeHeight = true
+            Me.Page1.Name = "Page1"
+            Me.Page1.PageHeight = 11
+            Me.Page1.PageWidth = 8.5
+            Me.Page1.PaperSize = System.Drawing.Printing.PaperKind.Letter
+            Me.Page1.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 2, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Page1.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            '
+            'FooterPage
+            '
+            Me.FooterPage = New Stimulsoft.Report.Components.StiPageFooterBand
+            Me.FooterPage.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0, 42.8, 8.2, 0)
+            Me.FooterPage.Name = "FooterPage"
+            Me.FooterPage.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.FooterPage.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.FooterPage.Guid = Nothing
+            Me.FooterPage.Interaction = Nothing
+            '
+            'TitleBand
+            '
+            Me.TitleBand = New Stimulsoft.Report.Components.StiReportTitleBand
+            Me.TitleBand.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0, 0.2, 8.2, 7.6)
+            Me.TitleBand.Name = "TitleBand"
+            Me.TitleBand.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.TitleBand.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            '
+            'TxtTiTle_M_TEN_CTY
+            '
+            Me.TxtTiTle_M_TEN_CTY = New Stimulsoft.Report.Components.StiText
+            Me.TxtTiTle_M_TEN_CTY.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0, 0.1, 8.2, 0.3)
+            Me.TxtTiTle_M_TEN_CTY.HorAlignment = Stimulsoft.Base.Drawing.StiTextHorAlignment.Center
+            Me.TxtTiTle_M_TEN_CTY.Name = "TxtTiTle_M_TEN_CTY"
+            AddHandler Me.TxtTiTle_M_TEN_CTY.GetValue, AddressOf Me.TxtTiTle_M_TEN_CTY__GetValue
+            Me.TxtTiTle_M_TEN_CTY.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.TxtTiTle_M_TEN_CTY.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.TxtTiTle_M_TEN_CTY.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.TxtTiTle_M_TEN_CTY.Font = New System.Drawing.Font("Times New Roman", 17!, System.Drawing.FontStyle.Bold)
+            Me.TxtTiTle_M_TEN_CTY.Guid = Nothing
+            Me.TxtTiTle_M_TEN_CTY.Indicator = Nothing
+            Me.TxtTiTle_M_TEN_CTY.Interaction = Nothing
+            Me.TxtTiTle_M_TEN_CTY.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.TxtTiTle_M_TEN_CTY.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.TxtTiTle_M_TEN_CTY.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'TxtTiTle_M_DIA_CHI
+            '
+            Me.TxtTiTle_M_DIA_CHI = New Stimulsoft.Report.Components.StiText
+            Me.TxtTiTle_M_DIA_CHI.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0, 0.4, 8.2, 0.2)
+            Me.TxtTiTle_M_DIA_CHI.HorAlignment = Stimulsoft.Base.Drawing.StiTextHorAlignment.Center
+            Me.TxtTiTle_M_DIA_CHI.Name = "TxtTiTle_M_DIA_CHI"
+            AddHandler Me.TxtTiTle_M_DIA_CHI.GetValue, AddressOf Me.TxtTiTle_M_DIA_CHI__GetValue
+            Me.TxtTiTle_M_DIA_CHI.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.TxtTiTle_M_DIA_CHI.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.TxtTiTle_M_DIA_CHI.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.TxtTiTle_M_DIA_CHI.Font = New System.Drawing.Font("Times New Roman", 11!, System.Drawing.FontStyle.Bold)
+            Me.TxtTiTle_M_DIA_CHI.Guid = Nothing
+            Me.TxtTiTle_M_DIA_CHI.Indicator = Nothing
+            Me.TxtTiTle_M_DIA_CHI.Interaction = Nothing
+            Me.TxtTiTle_M_DIA_CHI.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.TxtTiTle_M_DIA_CHI.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.TxtTiTle_M_DIA_CHI.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'TxtTiTle_M_TITLE1
+            '
+            Me.TxtTiTle_M_TITLE1 = New Stimulsoft.Report.Components.StiText
+            Me.TxtTiTle_M_TITLE1.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0, 1.3, 8.2, 0.4)
+            Me.TxtTiTle_M_TITLE1.HorAlignment = Stimulsoft.Base.Drawing.StiTextHorAlignment.Center
+            Me.TxtTiTle_M_TITLE1.Name = "TxtTiTle_M_TITLE1"
+            AddHandler Me.TxtTiTle_M_TITLE1.GetValue, AddressOf Me.TxtTiTle_M_TITLE1__GetValue
+            Me.TxtTiTle_M_TITLE1.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.TxtTiTle_M_TITLE1.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.TxtTiTle_M_TITLE1.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.TxtTiTle_M_TITLE1.Font = New System.Drawing.Font("Times New Roman", 16!, System.Drawing.FontStyle.Bold)
+            Me.TxtTiTle_M_TITLE1.Guid = Nothing
+            Me.TxtTiTle_M_TITLE1.Indicator = Nothing
+            Me.TxtTiTle_M_TITLE1.Interaction = Nothing
+            Me.TxtTiTle_M_TITLE1.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.TxtTiTle_M_TITLE1.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.TxtTiTle_M_TITLE1.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text1
+            '
+            Me.Text1 = New Stimulsoft.Report.Components.StiText
+            Me.Text1.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(1.2, 1.9, 5.6, 0.3)
+            Me.Text1.Name = "Text1"
+            AddHandler Me.Text1.GetValue, AddressOf Me.Text1__GetValue
+            Me.Text1.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text1.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text1.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text1.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text1.Guid = Nothing
+            Me.Text1.Indicator = Nothing
+            Me.Text1.Interaction = Nothing
+            Me.Text1.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text1.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text1.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text2
+            '
+            Me.Text2 = New Stimulsoft.Report.Components.StiText
+            Me.Text2.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0.8, 2.3, 5.7, 0.3)
+            Me.Text2.Guid = "e54e692d14324bd489fe4e89a4bd0e7a"
+            Me.Text2.Name = "Text2"
+            AddHandler Me.Text2.GetValue, AddressOf Me.Text2__GetValue
+            Me.Text2.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text2.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text2.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text2.Font = New System.Drawing.Font("Times New Roman", 12!, System.Drawing.FontStyle.Bold)
+            Me.Text2.Indicator = Nothing
+            Me.Text2.Interaction = Nothing
+            Me.Text2.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text2.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text2.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text3
+            '
+            Me.Text3 = New Stimulsoft.Report.Components.StiText
+            Me.Text3.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0.8, 2.6, 7.4, 0.3)
+            Me.Text3.Guid = "e1d60301f01940f784bef410702bd00d"
+            Me.Text3.Name = "Text3"
+            AddHandler Me.Text3.GetValue, AddressOf Me.Text3__GetValue
+            Me.Text3.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text3.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text3.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text3.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text3.Indicator = Nothing
+            Me.Text3.Interaction = Nothing
+            Me.Text3.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text3.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text3.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text5
+            '
+            Me.Text5 = New Stimulsoft.Report.Components.StiText
+            Me.Text5.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0.8, 2.9, 7.4, 0.3)
+            Me.Text5.Guid = "319d7ccc74e84d47b4fd574cf22134ea"
+            Me.Text5.Name = "Text5"
+            AddHandler Me.Text5.GetValue, AddressOf Me.Text5__GetValue
+            Me.Text5.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text5.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text5.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text5.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text5.Indicator = Nothing
+            Me.Text5.Interaction = Nothing
+            Me.Text5.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text5.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text5.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text6
+            '
+            Me.Text6 = New Stimulsoft.Report.Components.StiText
+            Me.Text6.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0.8, 3.2, 0.8, 0.3)
+            Me.Text6.Guid = "71157db296544522956f653c34dad0d5"
+            Me.Text6.Name = "Text6"
+            AddHandler Me.Text6.GetValue, AddressOf Me.Text6__GetValue
+            Me.Text6.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text6.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text6.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text6.Font = New System.Drawing.Font("Times New Roman", 12!, ((System.Drawing.FontStyle.Regular Or System.Drawing.FontStyle.Bold)  _
+                            Or System.Drawing.FontStyle.Underline))
+            Me.Text6.Indicator = Nothing
+            Me.Text6.Interaction = Nothing
+            Me.Text6.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text6.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text6.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text7
+            '
+            Me.Text7 = New Stimulsoft.Report.Components.StiText
+            Me.Text7.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(1.2, 3.5, 0.9, 0.2)
+            Me.Text7.Guid = "240dbe0437c8445d933ff0d651f14168"
+            Me.Text7.Name = "Text7"
+            AddHandler Me.Text7.GetValue, AddressOf Me.Text7__GetValue
+            Me.Text7.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text7.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text7.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text7.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text7.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text7.Indicator = Nothing
+            Me.Text7.Interaction = Nothing
+            Me.Text7.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text7.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text7.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text8
+            '
+            Me.Text8 = New Stimulsoft.Report.Components.StiText
+            Me.Text8.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(1.2, 3.7, 0.9, 0.2)
+            Me.Text8.Guid = "c677b83c71684ce0a923a6b872885ac6"
+            Me.Text8.Name = "Text8"
+            AddHandler Me.Text8.GetValue, AddressOf Me.Text8__GetValue
+            Me.Text8.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text8.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text8.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text8.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text8.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text8.Indicator = Nothing
+            Me.Text8.Interaction = Nothing
+            Me.Text8.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text8.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text8.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text9
+            '
+            Me.Text9 = New Stimulsoft.Report.Components.StiText
+            Me.Text9.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(4.6, 3.5, 0.7, 0.2)
+            Me.Text9.Guid = "f8ff953d99b247e89b806947e50006ad"
+            Me.Text9.Name = "Text9"
+            AddHandler Me.Text9.GetValue, AddressOf Me.Text9__GetValue
+            Me.Text9.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text9.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text9.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text9.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text9.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text9.Indicator = Nothing
+            Me.Text9.Interaction = Nothing
+            Me.Text9.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text9.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text9.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text10
+            '
+            Me.Text10 = New Stimulsoft.Report.Components.StiText
+            Me.Text10.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(4.6, 3.7, 0.7, 0.2)
+            Me.Text10.Guid = "76835d69de0e44ceb042f471ab5f1415"
+            Me.Text10.Name = "Text10"
+            AddHandler Me.Text10.GetValue, AddressOf Me.Text10__GetValue
+            Me.Text10.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text10.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text10.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text10.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text10.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text10.Indicator = Nothing
+            Me.Text10.Interaction = Nothing
+            Me.Text10.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text10.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text10.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text11
+            '
+            Me.Text11 = New Stimulsoft.Report.Components.StiText
+            Me.Text11.CanGrow = true
+            Me.Text11.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0.8, 4, 7.4, 0.5)
+            Me.Text11.Guid = "4dc4507af31543daa3b0d612fe3edfca"
+            Me.Text11.Name = "Text11"
+            AddHandler Me.Text11.GetValue, AddressOf Me.Text11__GetValue
+            Me.Text11.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text11.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text11.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text11.Font = New System.Drawing.Font("Times New Roman", 12!, System.Drawing.FontStyle.Bold)
+            Me.Text11.Indicator = Nothing
+            Me.Text11.Interaction = Nothing
+            Me.Text11.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text11.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text11.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, true, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text12
+            '
+            Me.Text12 = New Stimulsoft.Report.Components.StiText
+            Me.Text12.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0.8, 4.5, 7.4, 0.3)
+            Me.Text12.Guid = "5c141d6e2df843b89b00c0eb6764ea20"
+            Me.Text12.Name = "Text12"
+            AddHandler Me.Text12.GetValue, AddressOf Me.Text12__GetValue
+            Me.Text12.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text12.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text12.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text12.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text12.Indicator = Nothing
+            Me.Text12.Interaction = Nothing
+            Me.Text12.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text12.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text12.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text13
+            '
+            Me.Text13 = New Stimulsoft.Report.Components.StiText
+            Me.Text13.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0.8, 4.8, 7.4, 0.3)
+            Me.Text13.Guid = "b2591ce0202e4cc6a592abe3a8243197"
+            Me.Text13.Name = "Text13"
+            AddHandler Me.Text13.GetValue, AddressOf Me.Text13__GetValue
+            Me.Text13.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text13.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text13.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text13.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text13.Indicator = Nothing
+            Me.Text13.Interaction = Nothing
+            Me.Text13.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text13.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text13.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text14
+            '
+            Me.Text14 = New Stimulsoft.Report.Components.StiText
+            Me.Text14.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0.8, 5.1, 0.8, 0.3)
+            Me.Text14.Guid = "40d6fde5d02a4239a6d3299c7691c49e"
+            Me.Text14.Name = "Text14"
+            AddHandler Me.Text14.GetValue, AddressOf Me.Text14__GetValue
+            Me.Text14.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text14.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text14.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text14.Font = New System.Drawing.Font("Times New Roman", 12!, ((System.Drawing.FontStyle.Regular Or System.Drawing.FontStyle.Bold)  _
+                            Or System.Drawing.FontStyle.Underline))
+            Me.Text14.Indicator = Nothing
+            Me.Text14.Interaction = Nothing
+            Me.Text14.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text14.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text14.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text15
+            '
+            Me.Text15 = New Stimulsoft.Report.Components.StiText
+            Me.Text15.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(1.2, 5.4, 0.9, 0.2)
+            Me.Text15.Guid = "cd2e1e438aa242efae640b6110b5931e"
+            Me.Text15.Name = "Text15"
+            AddHandler Me.Text15.GetValue, AddressOf Me.Text15__GetValue
+            Me.Text15.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text15.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text15.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text15.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text15.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text15.Indicator = Nothing
+            Me.Text15.Interaction = Nothing
+            Me.Text15.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text15.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text15.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text16
+            '
+            Me.Text16 = New Stimulsoft.Report.Components.StiText
+            Me.Text16.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(1.2, 5.6, 0.9, 0.2)
+            Me.Text16.Guid = "3a6920d84b9041ff94d20e6651574d5c"
+            Me.Text16.Name = "Text16"
+            AddHandler Me.Text16.GetValue, AddressOf Me.Text16__GetValue
+            Me.Text16.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text16.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text16.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text16.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text16.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text16.Indicator = Nothing
+            Me.Text16.Interaction = Nothing
+            Me.Text16.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text16.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text16.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text17
+            '
+            Me.Text17 = New Stimulsoft.Report.Components.StiText
+            Me.Text17.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(4.6, 5.4, 0.7, 0.2)
+            Me.Text17.Guid = "ce2a91a1c2344dcb8574bcc7fa407db9"
+            Me.Text17.Name = "Text17"
+            AddHandler Me.Text17.GetValue, AddressOf Me.Text17__GetValue
+            Me.Text17.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text17.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text17.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text17.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text17.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text17.Indicator = Nothing
+            Me.Text17.Interaction = Nothing
+            Me.Text17.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text17.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text17.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text18
+            '
+            Me.Text18 = New Stimulsoft.Report.Components.StiText
+            Me.Text18.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(4.6, 5.6, 0.7, 0.2)
+            Me.Text18.Guid = "edff5b4a1b0d43009b2641b7fd9bbd14"
+            Me.Text18.Name = "Text18"
+            AddHandler Me.Text18.GetValue, AddressOf Me.Text18__GetValue
+            Me.Text18.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text18.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text18.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text18.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text18.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text18.Indicator = Nothing
+            Me.Text18.Interaction = Nothing
+            Me.Text18.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text18.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text18.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text4
+            '
+            Me.Text4 = New Stimulsoft.Report.Components.StiText
+            Me.Text4.CanGrow = true
+            Me.Text4.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0.8, 5.9, 7.2, 1.2)
+            Me.Text4.Guid = "a2eda9c6e8a348dbba6a89ffdc7154c3"
+            Me.Text4.Name = "Text4"
+            AddHandler Me.Text4.GetValue, AddressOf Me.Text4__GetValue
+            Me.Text4.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text4.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text4.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text4.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text4.Indicator = Nothing
+            Me.Text4.Interaction = Nothing
+            Me.Text4.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text4.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text4.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, true, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text19
+            '
+            Me.Text19 = New Stimulsoft.Report.Components.StiText
+            Me.Text19.CanGrow = true
+            Me.Text19.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0.8, 7.1, 7.2, 0.4)
+            Me.Text19.Guid = "0886d3ac2ead477c97d0980354faf197"
+            Me.Text19.Name = "Text19"
+            AddHandler Me.Text19.GetValue, AddressOf Me.Text19__GetValue
+            Me.Text19.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text19.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text19.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text19.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text19.Indicator = Nothing
+            Me.Text19.Interaction = Nothing
+            Me.Text19.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text19.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text19.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, true, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text25
+            '
+            Me.Text25 = New Stimulsoft.Report.Components.StiText
+            Me.Text25.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0, 0.6, 8.2, 0.2)
+            Me.Text25.HorAlignment = Stimulsoft.Base.Drawing.StiTextHorAlignment.Center
+            Me.Text25.Name = "Text25"
+            AddHandler Me.Text25.GetValue, AddressOf Me.Text25__GetValue
+            Me.Text25.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text25.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text25.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text25.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text25.Font = New System.Drawing.Font("Times New Roman", 11!, System.Drawing.FontStyle.Bold)
+            Me.Text25.Guid = Nothing
+            Me.Text25.Indicator = Nothing
+            Me.Text25.Interaction = Nothing
+            Me.Text25.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text25.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text25.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text26
+            '
+            Me.Text26 = New Stimulsoft.Report.Components.StiText
+            Me.Text26.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0, 0.8, 8.2, 0.2)
+            Me.Text26.HorAlignment = Stimulsoft.Base.Drawing.StiTextHorAlignment.Center
+            Me.Text26.Name = "Text26"
+            AddHandler Me.Text26.GetValue, AddressOf Me.Text26__GetValue
+            Me.Text26.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text26.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text26.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text26.Font = New System.Drawing.Font("Times New Roman", 11!, System.Drawing.FontStyle.Bold)
+            Me.Text26.Guid = Nothing
+            Me.Text26.Indicator = Nothing
+            Me.Text26.Interaction = Nothing
+            Me.Text26.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text26.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text26.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text27
+            '
+            Me.Text27 = New Stimulsoft.Report.Components.StiText
+            Me.Text27.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(2.1, 3.5, 2.2, 0.2)
+            Me.Text27.Name = "Text27"
+            AddHandler Me.Text27.GetValue, AddressOf Me.Text27__GetValue
+            Me.Text27.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text27.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text27.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text27.Font = New System.Drawing.Font("Times New Roman", 11!)
+            Me.Text27.Guid = Nothing
+            Me.Text27.Indicator = Nothing
+            Me.Text27.Interaction = Nothing
+            Me.Text27.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text27.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text27.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text28
+            '
+            Me.Text28 = New Stimulsoft.Report.Components.StiText
+            Me.Text28.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(5.3, 3.5, 2.2, 0.2)
+            Me.Text28.Name = "Text28"
+            AddHandler Me.Text28.GetValue, AddressOf Me.Text28__GetValue
+            Me.Text28.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text28.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text28.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text28.Font = New System.Drawing.Font("Times New Roman", 11!)
+            Me.Text28.Guid = Nothing
+            Me.Text28.Indicator = Nothing
+            Me.Text28.Interaction = Nothing
+            Me.Text28.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text28.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text28.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text29
+            '
+            Me.Text29 = New Stimulsoft.Report.Components.StiText
+            Me.Text29.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(2.1, 3.7, 2.2, 0.2)
+            Me.Text29.Guid = "7248e082322845e0ac016a264843e649"
+            Me.Text29.Name = "Text29"
+            AddHandler Me.Text29.GetValue, AddressOf Me.Text29__GetValue
+            Me.Text29.Type = Stimulsoft.Report.Components.StiSystemTextType.DataColumn
+            Me.Text29.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text29.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text29.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text29.Font = New System.Drawing.Font("Times New Roman", 11!)
+            Me.Text29.Indicator = Nothing
+            Me.Text29.Interaction = Nothing
+            Me.Text29.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text29.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text29.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text30
+            '
+            Me.Text30 = New Stimulsoft.Report.Components.StiText
+            Me.Text30.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(5.3, 3.7, 2.2, 0.2)
+            Me.Text30.Guid = "dfb57606534341f9b31f314518b584f6"
+            Me.Text30.Name = "Text30"
+            AddHandler Me.Text30.GetValue, AddressOf Me.Text30__GetValue
+            Me.Text30.Type = Stimulsoft.Report.Components.StiSystemTextType.DataColumn
+            Me.Text30.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text30.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text30.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text30.Font = New System.Drawing.Font("Times New Roman", 11!)
+            Me.Text30.Indicator = Nothing
+            Me.Text30.Interaction = Nothing
+            Me.Text30.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text30.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text30.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text31
+            '
+            Me.Text31 = New Stimulsoft.Report.Components.StiText
+            Me.Text31.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(2.1, 5.4, 2.2, 0.2)
+            Me.Text31.Guid = "49220cc234ef4e3ba1238f343e2a3d27"
+            Me.Text31.Name = "Text31"
+            AddHandler Me.Text31.GetValue, AddressOf Me.Text31__GetValue
+            Me.Text31.Type = Stimulsoft.Report.Components.StiSystemTextType.DataColumn
+            Me.Text31.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text31.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text31.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text31.Font = New System.Drawing.Font("Times New Roman", 11!)
+            Me.Text31.Indicator = Nothing
+            Me.Text31.Interaction = Nothing
+            Me.Text31.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text31.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text31.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text32
+            '
+            Me.Text32 = New Stimulsoft.Report.Components.StiText
+            Me.Text32.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(2.1, 5.6, 2.2, 0.2)
+            Me.Text32.Guid = "121afcfc54524dc599673eab6bde3937"
+            Me.Text32.Name = "Text32"
+            AddHandler Me.Text32.GetValue, AddressOf Me.Text32__GetValue
+            Me.Text32.Type = Stimulsoft.Report.Components.StiSystemTextType.DataColumn
+            Me.Text32.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text32.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text32.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text32.Font = New System.Drawing.Font("Times New Roman", 11!)
+            Me.Text32.Indicator = Nothing
+            Me.Text32.Interaction = Nothing
+            Me.Text32.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text32.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text32.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text33
+            '
+            Me.Text33 = New Stimulsoft.Report.Components.StiText
+            Me.Text33.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(5.3, 5.4, 2.2, 0.2)
+            Me.Text33.Guid = "b5e67dd3db7248e19bdf435c9b6f2758"
+            Me.Text33.Name = "Text33"
+            AddHandler Me.Text33.GetValue, AddressOf Me.Text33__GetValue
+            Me.Text33.Type = Stimulsoft.Report.Components.StiSystemTextType.DataColumn
+            Me.Text33.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text33.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text33.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text33.Font = New System.Drawing.Font("Times New Roman", 11!)
+            Me.Text33.Indicator = Nothing
+            Me.Text33.Interaction = Nothing
+            Me.Text33.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text33.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text33.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text34
+            '
+            Me.Text34 = New Stimulsoft.Report.Components.StiText
+            Me.Text34.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(5.3, 5.6, 2.2, 0.2)
+            Me.Text34.Guid = "28a0180cee4040ff80de25915cec4136"
+            Me.Text34.Name = "Text34"
+            AddHandler Me.Text34.GetValue, AddressOf Me.Text34__GetValue
+            Me.Text34.Type = Stimulsoft.Report.Components.StiSystemTextType.DataColumn
+            Me.Text34.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text34.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text34.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text34.Font = New System.Drawing.Font("Times New Roman", 11!)
+            Me.Text34.Indicator = Nothing
+            Me.Text34.Interaction = Nothing
+            Me.Text34.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text34.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text34.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Image1
+            '
+            Me.Image1 = New Stimulsoft.Report.Components.StiImage
+            Me.Image1.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0.6, 0.1, 0.9, 0.9)
+            Me.Image1.Guid = "01b92080a0f547e7a368416fdad1433a"
+            Me.Image1.Image = StiImageConverter.StringToImage("iVBORw0KGgoAAAANSUhEUgAAAFQAAABPCAIAAAD6GHXOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8Y"&amp; _ 
+"QUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAoMSURBVHhe7ZtNqBZVGMffbasKstRKTbiGLcSIhCSINhLWq"&amp; _ 
+"gQv5kZdhFIZFbaI3CQYgUhoSFAYBbUxCCL6WpRQ4KaFCwk1syjBPoS+DMH09jvvf+Z5z8w5M+98vXPz1"&amp; _ 
+"svhMjPnnOec//N9npk7mOn7d3m4IH91MZu/Qf+L/33xEq3/dcMVZwH8O29/TvtPgU/0/Pln31oweIS2Y"&amp; _ 
+"/urs46/N8kn4AeDDbfNe2L59du5+PTjo6n9zw4f+gGf+Lbzf1xYNNgGctrSqx5d98ALPJkd3MNVewX/0"&amp; _ 
+"ovvSuxqKD9WMOfBO4Anj59B2oYcLkxd8xiKkAXfa/zrR/IzqPeW6X2I2gfPNeBTze8VtjjeE3hi22Cwy"&amp; _ 
+"ZD7LHhl3/ue2+uVBRMHj2CJapK5DB5tp5nxI/ytW16eFc83cfDIHOQGVU4eEzD7p4sBadozhySPPJct2"&amp; _ 
+"ub7OZArw+PCnnNx+5Knf/7xt549/2QlT2zzTR1tP/rlN18c/orGBV088cNezzl/5+BHxzUQIk+Dh3qDF"&amp; _ 
+"tnyXLndG699Yv5fw+jq88w3CfCJ8qLYhk3I5dgNvPD7wr/vnp19er7OwSfISWmEagh7A5mcqbQPntFD0"&amp; _ 
+"9gg5WcKyoJF9GP8nYN37hqcRC8h1wEuRe56c+B5YrFQOS8qc4WCd9tWeBOSbAyPg0fVGYZdpAc+5xp6+"&amp; _ 
+"HUu+RkilvwcAQzw2QAWBw9OhmmKlB+ruSLBo8MKbyBJT+wGpBA8IxjMFHkKsqArCHySmWHPpKvS3qypW"&amp; _ 
+"90ytPkkOuIXVOfRgcdj3KTSvi7Vnq1bSoMMi0QXOjzvYDOD8Qs/pLxS10TwdwYeK2XTftD2IfmMKACfD"&amp; _ 
+"LHzH6QgONGw1w143PX0Q7tVopLOs+8UcF5oMfCjMfRaaqRT0ORy/k7AX1aiakc3LoISzUj25ZJH1MZB5"&amp; _ 
+"YVkQR4fu9T/TsDPcHQzhdfW24AnUlq1Q2QnpPzdgPfrU3ZKq6P2Gb2wCq+RSjOlLsXOkh2Ax0X5NVntW"&amp; _ 
+"Ae46K+Kw/MJSvmxrM4jfyvwRGal5SH4kiytBDy+TRleWO1DHTo/7TcG7zRQBYkQubaeVibzAivx9og3W"&amp; _ 
+"ueUHwnyxbaq0Bi8y8bX3LXTL1GF4kqLE5ldFoGHlX7xI6S2euUz3eb8zcEj2NDP+TtGUSlOeLo6SoGjb"&amp; _ 
+"+n84keIXLmDF/bair2Bw0sAICXlc0U6b26PnNd7LZE72Iyy+ly1Lwqe5TAKr9TVFn8TySNM8rlysWv3K"&amp; _ 
+"mZks5RIMUNKVMJH61Kpwy+NtGFAE/DYXrmp5+Smg7p9kJCzeb3DiIq6SP64hk6MvzZ4uF5F5iF+NFb4f"&amp; _ 
+"fAYfy3kQdoDveaZT23wbL3czkNx2VsqunzwSM/PZKsLX9bU/sBfDzzhrZbC5/AwF8B6aQEpdIEndVkpm"&amp; _ 
+"nJ+Rafmio6gHvjQJ7P16o1Nk6UjMZpfsa0i85BHCL9lzlcDPOKy2KZKQ4OGuKjPwQJkvmTekw2acap9z"&amp; _ 
+"lcVPDw2J6+UFgwogt461mrksG9ee+fBxffWbbsWrt228GHAwzKxAJfRRviVwJPS6MRO4yJM2iramIZdP"&amp; _ 
+"Hfu2GBwYuqmZu3U1Hzae7esXnWDK/W2ecNTAn6UfpFXkKsqXEfT9T7Bi2XfL7vuo6V3IHwl0c2+bRkve"&amp; _ 
+"VUUg4pSLbyZwS0lb/oCfvS/zWl/jOSJTJi6ZA6DO6kldgUeLty/wCXFMsYGpa4xkicg6SUEf3FvnSTVH"&amp; _ 
+"YLHBcr56cOeus5vDHirVWQzquY6397h+W6SqGGe39Ln6psrA4+o/cNZe1fXibf3wePzlGLZCTp9yVPpe"&amp; _ 
+"/5C8CpRWUbhfTBVnbPxkR2qPZmCJC/8cn7V9+eDH71LxLHZGxjhx+F5Lx6r04+M7BA8OY+pvfaJ8adee"&amp; _ 
+"fxpLy753BsYHSS6OkV3BZ5UhzwnPBdkP+ksk1ME/PC8lXwV71uUPrMYetTxTC1ZsyvwivMheDZfsdSRB"&amp; _ 
+"68vRKLliqAm1VD524NXhrtv8drocZDNc+6o8lVXHjwKb18XhKR1mGuZ6rQBD2YEfvzWJc/dvC4qdrk9N"&amp; _ 
+"lnlDQ/gR36u4hkb54dTJanCKTKlQcNRNWjrF27GyHUKHlvtlJGmyhm3U0ne9emTGIsZUY3yl1TOi5o0a"&amp; _ 
+"A2O8ZpieYeFt6JCiORf/m9ckrwDr+N6xaJSxWHlJZpaJaAq1R6/zqHwTIQqMX5T+5mil2S1Vv23Dc5+2"&amp; _ 
+"5D30Al4fUU1Jxv4i95wJt4ep0V4mKvN83wZ4Y8vZjSM5rM5rWoOlgl1wYYrUhkFywoUQpr2JLwoY+Gl8"&amp; _ 
+"+ezuWaecvofy4UoBr8cOnRq7Zrv1j944dvTLPXXsWOnN05zy0O6fnh8K9c0HtLLerql/XnkiLb2++HPu"&amp; _ 
+"D2xcoUonN29SwTVoHB27x5IkdvQ+9PrB9V78u5VeqJb/tJlWG26utiVdQHp1w8/gCwrfr1yuZt4YL+W1"&amp; _ 
+"o/B1ssAFmIDUS4OIEQt9fiNVwsMt1zzhMY1M3UNFYEnx9KTMzueEuNFgaYtnt60Wbe5BvuYzj60HH+1Y"&amp; _ 
+"7sFg20xN9fnC9d+r0iZ8EQwbD53bBW3Y7JFKgRgcJI5sF91ZYgyAb5yAWDYLPCqJfBEA3iIVHli4OG6K"&amp; _ 
+"PBcSsFIDWAJgdetpluvD16LsrpGDhmdSNVW56FEpTFonHbIEzd9qC9sQOiMgq8CA3SPcayktSEBIW6RO"&amp; _ 
+"bcheNHy1ysCL2wo1Gh/e/fUAg9lNM5NX7lCNuJToxcTYD8mfJAzwN8buikI0tzcz3l7bQiJMRnMogXpI"&amp; _ 
+"vAMQIchKmHSiiTPViDrFGcoHGgaeIiwlmSrXpO8ENIFYBbSftRLl09tCCbjJnPgDVEheBkttqrzFtQZK"&amp; _ 
+"hcQlbz0ULPAViR5MzztXh7OwAuwTCAHHpxMkTBYSMO4LQCfEWdt8NiGA79xWhfSeXPFOZtHzQQereYaN"&amp; _ 
+"sG1qOTRVehIvGBOYoFn85iYc/6pXpjkIciictFyb2aGMck7Ox+GPferDd5JeAhYBm9cL5c8vRKLmbS8v"&amp; _ 
+"Tm8qIP1bV78zTk8Zjl+Tc1HGLDDrIYnoeSdexsKg4ZnxQQE3vEu9X8y5EK1F0jmMCKngUVqb0ro620p+"&amp; _ 
+"OTsONbhsXsLBzm7YJ/Oe6fuXQ5PHrEIPAMEHh7FHZ7TrgP7rR4OIdbQ0BKbp9fcSVTtPcmPcqyx4KXnE"&amp; _ 
+"ET5YTF/JRIAsCL8HcWavXv8WwUzF7yGYVguzPRoqBf5X5Lbg1aFMeUwUkgDr2AjtF7gdZBsr8zyJQ+dF"&amp; _ 
+"HwmuxR4rWJxXreyeeVIMN3cePJkar52ZbameCGx89cyTt0qXrBtXZs4fQYkuT3qwVas2YjwoZ4Yd9iin"&amp; _ 
+"oBcXkf8pkXfnFmvDbAl6LJtePRHBM2raRVWBHB0IetlAMN8ahHwgUZUOdJEzzO5iVXohPpoT6LTy2nWW"&amp; _ 
+"HFOHmlLuJnp+h98VU7NtXH/AILRlvmA1RwQAAAAAElFTkSuQmCC")
+            Me.Image1.Name = "Image1"
+            Me.Image1.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Image1.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Image1.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Image1.Interaction = Nothing
+            '
+            'HorizontalLinePrimitive1
+            '
+            Me.HorizontalLinePrimitive1 = New Stimulsoft.Report.Components.StiHorizontalLinePrimitive
+            Me.HorizontalLinePrimitive1.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(1.1, 1.1, 6.1, 0.01)
+            Me.HorizontalLinePrimitive1.Color = System.Drawing.Color.Black
+            Me.HorizontalLinePrimitive1.Name = "HorizontalLinePrimitive1"
+            Me.HorizontalLinePrimitive1.ShiftMode = Stimulsoft.Report.Components.StiShiftMode.None
+            Me.HorizontalLinePrimitive1.Style = Stimulsoft.Base.Drawing.StiPenStyle.Double
+            Me.HorizontalLinePrimitive1.EndCap = New Stimulsoft.Base.Drawing.StiCap(10, Stimulsoft.Base.Drawing.StiCapStyle.None, 10, true, System.Drawing.Color.Black)
+            Me.HorizontalLinePrimitive1.Guid = Nothing
+            Me.HorizontalLinePrimitive1.Interaction = Nothing
+            Me.HorizontalLinePrimitive1.StartCap = New Stimulsoft.Base.Drawing.StiCap(10, Stimulsoft.Base.Drawing.StiCapStyle.None, 10, true, System.Drawing.Color.Black)
+            Me.TitleBand.Guid = Nothing
+            Me.TitleBand.Interaction = Nothing
+            '
+            'DataBand
+            '
+            Me.DataBand = New Stimulsoft.Report.Components.StiDataBand
+            Me.DataBand.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0, 8.2, 8.2, 0)
+            Me.DataBand.DataSourceName = "Table0"
+            Me.DataBand.EvenStyle = "StyleData1"
+            Me.DataBand.Name = "DataBand"
+            Me.DataBand.Sort = New System.String(-1) {}
+            Me.DataBand.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.DataBand.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.DataBand.BusinessObjectGuid = Nothing
+            Me.DataBand.Guid = Nothing
+            Me.DataBand.Interaction = Nothing
+            Me.DataBand.MasterComponent = Nothing
+            '
+            'FooterBand
+            '
+            Me.FooterBand = New Stimulsoft.Report.Components.StiFooterBand
+            Me.FooterBand.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0, 8.6, 8.2, 1.9)
+            Me.FooterBand.Name = "FooterBand"
+            Me.FooterBand.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.FooterBand.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            '
+            'TxtM_Cap_Ng_LB
+            '
+            Me.TxtM_Cap_Ng_LB = New Stimulsoft.Report.Components.StiText
+            Me.TxtM_Cap_Ng_LB.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(1.1, 0.1, 2.2, 0.3)
+            Me.TxtM_Cap_Ng_LB.HorAlignment = Stimulsoft.Base.Drawing.StiTextHorAlignment.Center
+            Me.TxtM_Cap_Ng_LB.Name = "TxtM_Cap_Ng_LB"
+            AddHandler Me.TxtM_Cap_Ng_LB.GetValue, AddressOf Me.TxtM_Cap_Ng_LB__GetValue
+            Me.TxtM_Cap_Ng_LB.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.TxtM_Cap_Ng_LB.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.TxtM_Cap_Ng_LB.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.TxtM_Cap_Ng_LB.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.TxtM_Cap_Ng_LB.Font = New System.Drawing.Font("Times New Roman", 12!, System.Drawing.FontStyle.Bold)
+            Me.TxtM_Cap_Ng_LB.Guid = Nothing
+            Me.TxtM_Cap_Ng_LB.Indicator = Nothing
+            Me.TxtM_Cap_Ng_LB.Interaction = Nothing
+            Me.TxtM_Cap_Ng_LB.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.TxtM_Cap_Ng_LB.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.TxtM_Cap_Ng_LB.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text20
+            '
+            Me.Text20 = New Stimulsoft.Report.Components.StiText
+            Me.Text20.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(5.3, 0.1, 2.4, 0.3)
+            Me.Text20.Guid = "94af4b4a17584c49b17c64be89ce83a3"
+            Me.Text20.HorAlignment = Stimulsoft.Base.Drawing.StiTextHorAlignment.Center
+            Me.Text20.Name = "Text20"
+            AddHandler Me.Text20.GetValue, AddressOf Me.Text20__GetValue
+            Me.Text20.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text20.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text20.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text20.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text20.Font = New System.Drawing.Font("Times New Roman", 12!, System.Drawing.FontStyle.Bold)
+            Me.Text20.Indicator = Nothing
+            Me.Text20.Interaction = Nothing
+            Me.Text20.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text20.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text20.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text21
+            '
+            Me.Text21 = New Stimulsoft.Report.Components.StiText
+            Me.Text21.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0.8, 0.5, 0.9, 0.3)
+            Me.Text21.Guid = "5d4f41e9e85d47518d41ab67f8aa5f6d"
+            Me.Text21.HorAlignment = Stimulsoft.Base.Drawing.StiTextHorAlignment.Center
+            Me.Text21.Name = "Text21"
+            AddHandler Me.Text21.GetValue, AddressOf Me.Text21__GetValue
+            Me.Text21.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text21.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text21.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text21.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text21.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text21.Indicator = Nothing
+            Me.Text21.Interaction = Nothing
+            Me.Text21.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text21.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text21.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text22
+            '
+            Me.Text22 = New Stimulsoft.Report.Components.StiText
+            Me.Text22.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(2.6, 0.5, 1.1, 0.3)
+            Me.Text22.Guid = "7fa8f2f48224476995dc8cc8f06ed7b7"
+            Me.Text22.HorAlignment = Stimulsoft.Base.Drawing.StiTextHorAlignment.Center
+            Me.Text22.Name = "Text22"
+            AddHandler Me.Text22.GetValue, AddressOf Me.Text22__GetValue
+            Me.Text22.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text22.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text22.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text22.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text22.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text22.Indicator = Nothing
+            Me.Text22.Interaction = Nothing
+            Me.Text22.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text22.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text22.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text23
+            '
+            Me.Text23 = New Stimulsoft.Report.Components.StiText
+            Me.Text23.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(4.8, 0.5, 0.9, 0.3)
+            Me.Text23.Guid = "eb9d00ee3bd84d82ac2881ed17143a54"
+            Me.Text23.HorAlignment = Stimulsoft.Base.Drawing.StiTextHorAlignment.Center
+            Me.Text23.Name = "Text23"
+            AddHandler Me.Text23.GetValue, AddressOf Me.Text23__GetValue
+            Me.Text23.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text23.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text23.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text23.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text23.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text23.Indicator = Nothing
+            Me.Text23.Interaction = Nothing
+            Me.Text23.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text23.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text23.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text24
+            '
+            Me.Text24 = New Stimulsoft.Report.Components.StiText
+            Me.Text24.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(6.7, 0.5, 1.2, 0.3)
+            Me.Text24.Guid = "096c7b3de71f4d96af5cab86f3a942a8"
+            Me.Text24.HorAlignment = Stimulsoft.Base.Drawing.StiTextHorAlignment.Center
+            Me.Text24.Name = "Text24"
+            AddHandler Me.Text24.GetValue, AddressOf Me.Text24__GetValue
+            Me.Text24.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text24.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.Text24.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text24.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text24.Font = New System.Drawing.Font("Times New Roman", 12!)
+            Me.Text24.Indicator = Nothing
+            Me.Text24.Interaction = Nothing
+            Me.Text24.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.Text24.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text24.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'TxtFooter_PageNumber
+            '
+            Me.TxtFooter_PageNumber = New Stimulsoft.Report.Components.StiText
+            Me.TxtFooter_PageNumber.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(7.2, 1.7, 1, 0.2)
+            Me.TxtFooter_PageNumber.Enabled = false
+            Me.TxtFooter_PageNumber.HorAlignment = Stimulsoft.Base.Drawing.StiTextHorAlignment.Right
+            Me.TxtFooter_PageNumber.Name = "TxtFooter_PageNumber"
+            AddHandler Me.TxtFooter_PageNumber.GetValue, AddressOf Me.TxtFooter_PageNumber__GetValue
+            Me.TxtFooter_PageNumber.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.TxtFooter_PageNumber.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.TxtFooter_PageNumber.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.TxtFooter_PageNumber.Font = New System.Drawing.Font("Times New Roman", 8!)
+            Me.TxtFooter_PageNumber.Guid = Nothing
+            Me.TxtFooter_PageNumber.Indicator = Nothing
+            Me.TxtFooter_PageNumber.Interaction = Nothing
+            Me.TxtFooter_PageNumber.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.TxtFooter_PageNumber.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.TxtFooter_PageNumber.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'TxtFooter_Time
+            '
+            Me.TxtFooter_Time = New Stimulsoft.Report.Components.StiText
+            Me.TxtFooter_Time.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(0, 1.7, 3, 0.2)
+            Me.TxtFooter_Time.Enabled = false
+            Me.TxtFooter_Time.Name = "TxtFooter_Time"
+            AddHandler Me.TxtFooter_Time.GetValue, AddressOf Me.TxtFooter_Time__GetValue
+            Me.TxtFooter_Time.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.TxtFooter_Time.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.TxtFooter_Time.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.TxtFooter_Time.Font = New System.Drawing.Font("Times New Roman", 8!)
+            Me.TxtFooter_Time.Guid = Nothing
+            Me.TxtFooter_Time.Indicator = Nothing
+            Me.TxtFooter_Time.Interaction = Nothing
+            Me.TxtFooter_Time.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.TxtFooter_Time.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.TxtFooter_Time.TextFormat = New Stimulsoft.Report.Components.TextFormats.StiDateFormatService("dd/MM/yyyy HH:mm:ss", "")
+            Me.TxtFooter_Time.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'TxtM_Nguoi_LB
+            '
+            Me.TxtM_Nguoi_LB = New Stimulsoft.Report.Components.StiText
+            Me.TxtM_Nguoi_LB.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(6.3, 1.4, 1.9, 0.3)
+            Me.TxtM_Nguoi_LB.HorAlignment = Stimulsoft.Base.Drawing.StiTextHorAlignment.Center
+            Me.TxtM_Nguoi_LB.Name = "TxtM_Nguoi_LB"
+            AddHandler Me.TxtM_Nguoi_LB.GetValue, AddressOf Me.TxtM_Nguoi_LB__GetValue
+            Me.TxtM_Nguoi_LB.VertAlignment = Stimulsoft.Base.Drawing.StiVertAlignment.Center
+            Me.TxtM_Nguoi_LB.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.TxtM_Nguoi_LB.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.TxtM_Nguoi_LB.Font = New System.Drawing.Font("Times New Roman", 12!, System.Drawing.FontStyle.Bold)
+            Me.TxtM_Nguoi_LB.Guid = Nothing
+            Me.TxtM_Nguoi_LB.Indicator = Nothing
+            Me.TxtM_Nguoi_LB.Interaction = Nothing
+            Me.TxtM_Nguoi_LB.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0.01, 0)
+            Me.TxtM_Nguoi_LB.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.TxtM_Nguoi_LB.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            '
+            'Text35
+            '
+            Me.Text35 = New Stimulsoft.Report.Components.StiText
+            Me.Text35.AllowHtmlTags = true
+            Me.Text35.ClientRectangle = New Stimulsoft.Base.Drawing.RectangleD(3.4, 1.2, 2.7, 0.4)
+            Me.Text35.Name = "Text35"
+            AddHandler Me.Text35.GetValue, AddressOf Me.Text35__GetValue
+            Me.Text35.TextQuality = Stimulsoft.Report.Components.StiTextQuality.Wysiwyg
+            Me.Text35.Type = Stimulsoft.Report.Components.StiSystemTextType.Expression
+            Me.Text35.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.Text35.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Transparent)
+            Me.Text35.Font = New System.Drawing.Font("Times New Roman", 17!)
+            Me.Text35.Guid = Nothing
+            Me.Text35.Indicator = Nothing
+            Me.Text35.Interaction = Nothing
+            Me.Text35.Margins = New Stimulsoft.Report.Components.StiMargins(0, 0, 0, 0)
+            Me.Text35.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black)
+            Me.Text35.TextOptions = New Stimulsoft.Base.Drawing.StiTextOptions(false, false, false, 0!, System.Drawing.Text.HotkeyPrefix.None, System.Drawing.StringTrimming.None)
+            Me.FooterBand.Guid = Nothing
+            Me.FooterBand.Interaction = Nothing
+            Me.Page1.ExcelSheetValue = Nothing
+            Me.Page1.Interaction = Nothing
+            Me.Page1.Margins = New Stimulsoft.Report.Components.StiMargins(0.15, 0.15, 0.15, 0.15)
+            Me.Page1_Watermark = New Stimulsoft.Report.Components.StiWatermark
+            Me.Page1_Watermark.Font = New System.Drawing.Font("Arial", 100!)
+            Me.Page1_Watermark.Image = Nothing
+            Me.Page1_Watermark.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.FromArgb(50, 0, 0, 0))
+            Me.Report_PrinterSettings = New Stimulsoft.Report.Print.StiPrinterSettings
+            Me.ReportResources.Add(New Stimulsoft.Report.StiReportResource("Image1.png", "Image1", "Image", Stimulsoft.Report.StiReportResourceType.Bitmap))
+            '
+            'StyleStyleData1
+            '
+            Me.StyleStyleData1 = New Stimulsoft.Report.StiStyle
+            Me.StyleStyleData1.AllowUseBorderFormatting = false
+            Me.StyleStyleData1.AllowUseBorderSides = false
+            Me.StyleStyleData1.AllowUseFont = false
+            Me.StyleStyleData1.AllowUseTextBrush = false
+            Me.StyleStyleData1.Description = ""
+            Me.StyleStyleData1.Name = "StyleData1"
+            Me.StyleStyleData1.Border = New Stimulsoft.Base.Drawing.StiBorder(Stimulsoft.Base.Drawing.StiBorderSides.None, System.Drawing.Color.Black, 1, Stimulsoft.Base.Drawing.StiPenStyle.Solid, false, 4, New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Black), false)
+            Me.StyleStyleData1.Brush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.FromArgb(255, 240, 237, 232))
+            Me.StyleStyleData1.Font = New System.Drawing.Font("Arial", 8!)
+            Me.StyleStyleData1.Image = Nothing
+            Me.StyleStyleData1.TextBrush = New Stimulsoft.Base.Drawing.StiSolidBrush(System.Drawing.Color.Blue)
+            Me.PrinterSettings = me.Report_PrinterSettings
+            Me.Page1.Report = Me
+            Me.Page1.Watermark = me.Page1_Watermark
+            Me.FooterPage.Page = me.Page1
+            Me.FooterPage.Parent = me.Page1
+            Me.TitleBand.Page = me.Page1
+            Me.TitleBand.Parent = me.Page1
+            Me.TxtTiTle_M_TEN_CTY.Page = me.Page1
+            Me.TxtTiTle_M_TEN_CTY.Parent = me.TitleBand
+            Me.TxtTiTle_M_DIA_CHI.Page = me.Page1
+            Me.TxtTiTle_M_DIA_CHI.Parent = me.TitleBand
+            Me.TxtTiTle_M_TITLE1.Page = me.Page1
+            Me.TxtTiTle_M_TITLE1.Parent = me.TitleBand
+            Me.Text1.Page = me.Page1
+            Me.Text1.Parent = me.TitleBand
+            Me.Text2.Page = me.Page1
+            Me.Text2.Parent = me.TitleBand
+            Me.Text3.Page = me.Page1
+            Me.Text3.Parent = me.TitleBand
+            Me.Text5.Page = me.Page1
+            Me.Text5.Parent = me.TitleBand
+            Me.Text6.Page = me.Page1
+            Me.Text6.Parent = me.TitleBand
+            Me.Text7.Page = me.Page1
+            Me.Text7.Parent = me.TitleBand
+            Me.Text8.Page = me.Page1
+            Me.Text8.Parent = me.TitleBand
+            Me.Text9.Page = me.Page1
+            Me.Text9.Parent = me.TitleBand
+            Me.Text10.Page = me.Page1
+            Me.Text10.Parent = me.TitleBand
+            Me.Text11.Page = me.Page1
+            Me.Text11.Parent = me.TitleBand
+            Me.Text12.Page = me.Page1
+            Me.Text12.Parent = me.TitleBand
+            Me.Text13.Page = me.Page1
+            Me.Text13.Parent = me.TitleBand
+            Me.Text14.Page = me.Page1
+            Me.Text14.Parent = me.TitleBand
+            Me.Text15.Page = me.Page1
+            Me.Text15.Parent = me.TitleBand
+            Me.Text16.Page = me.Page1
+            Me.Text16.Parent = me.TitleBand
+            Me.Text17.Page = me.Page1
+            Me.Text17.Parent = me.TitleBand
+            Me.Text18.Page = me.Page1
+            Me.Text18.Parent = me.TitleBand
+            Me.Text4.Page = me.Page1
+            Me.Text4.Parent = me.TitleBand
+            Me.Text19.Page = me.Page1
+            Me.Text19.Parent = me.TitleBand
+            Me.Text25.Page = me.Page1
+            Me.Text25.Parent = me.TitleBand
+            Me.Text26.Page = me.Page1
+            Me.Text26.Parent = me.TitleBand
+            Me.Text27.Page = me.Page1
+            Me.Text27.Parent = me.TitleBand
+            Me.Text28.Page = me.Page1
+            Me.Text28.Parent = me.TitleBand
+            Me.Text29.Page = me.Page1
+            Me.Text29.Parent = me.TitleBand
+            Me.Text30.Page = me.Page1
+            Me.Text30.Parent = me.TitleBand
+            Me.Text31.Page = me.Page1
+            Me.Text31.Parent = me.TitleBand
+            Me.Text32.Page = me.Page1
+            Me.Text32.Parent = me.TitleBand
+            Me.Text33.Page = me.Page1
+            Me.Text33.Parent = me.TitleBand
+            Me.Text34.Page = me.Page1
+            Me.Text34.Parent = me.TitleBand
+            Me.Image1.Page = me.Page1
+            Me.Image1.Parent = me.TitleBand
+            Me.HorizontalLinePrimitive1.Page = me.Page1
+            Me.HorizontalLinePrimitive1.Parent = me.TitleBand
+            Me.DataBand.Page = me.Page1
+            Me.DataBand.Parent = me.Page1
+            Me.FooterBand.Page = me.Page1
+            Me.FooterBand.Parent = me.Page1
+            Me.TxtM_Cap_Ng_LB.Page = me.Page1
+            Me.TxtM_Cap_Ng_LB.Parent = me.FooterBand
+            Me.Text20.Page = me.Page1
+            Me.Text20.Parent = me.FooterBand
+            Me.Text21.Page = me.Page1
+            Me.Text21.Parent = me.FooterBand
+            Me.Text22.Page = me.Page1
+            Me.InitializeComponent2
+        End Sub
+        
+        Public Sub InitializeComponent2()
+            Me.Text22.Parent = me.FooterBand
+            Me.Text23.Page = me.Page1
+            Me.Text23.Parent = me.FooterBand
+            Me.Text24.Page = me.Page1
+            Me.Text24.Parent = me.FooterBand
+            Me.TxtFooter_PageNumber.Page = me.Page1
+            Me.TxtFooter_PageNumber.Parent = me.FooterBand
+            Me.TxtFooter_Time.Page = me.Page1
+            Me.TxtFooter_Time.Parent = me.FooterBand
+            Me.TxtM_Nguoi_LB.Page = me.Page1
+            Me.TxtM_Nguoi_LB.Parent = me.FooterBand
+            Me.Text35.Page = me.Page1
+            Me.Text35.Parent = me.FooterBand
+            AddHandler EndRender, AddressOf Me.ReportWordsToEnd__EndRender
+            '
+            'Add to TitleBand.Components
+            '
+            Me.TitleBand.Components.Clear
+            Me.TitleBand.Components.AddRange(New Stimulsoft.Report.Components.StiComponent() {me.TxtTiTle_M_TEN_CTY, me.TxtTiTle_M_DIA_CHI, me.TxtTiTle_M_TITLE1, me.Text1, me.Text2, me.Text3, me.Text5, me.Text6, me.Text7, me.Text8, me.Text9, me.Text10, me.Text11, me.Text12, me.Text13, me.Text14, me.Text15, me.Text16, me.Text17, me.Text18, me.Text4, me.Text19, me.Text25, me.Text26, me.Text27, me.Text28, me.Text29, me.Text30, me.Text31, me.Text32, me.Text33, me.Text34, me.Image1, me.HorizontalLinePrimitive1})
+            '
+            'Add to FooterBand.Components
+            '
+            Me.FooterBand.Components.Clear
+            Me.FooterBand.Components.AddRange(New Stimulsoft.Report.Components.StiComponent() {me.TxtM_Cap_Ng_LB, me.Text20, me.Text21, me.Text22, me.Text23, me.Text24, me.TxtFooter_PageNumber, me.TxtFooter_Time, me.TxtM_Nguoi_LB, me.Text35})
+            '
+            'Add to Page1.Components
+            '
+            Me.Page1.Components.Clear
+            Me.Page1.Components.AddRange(New Stimulsoft.Report.Components.StiComponent() {me.FooterPage, me.TitleBand, me.DataBand, me.FooterBand})
+            '
+            'Add to Pages
+            '
+            Me.Pages.Clear
+            Me.Pages.AddRange(New Stimulsoft.Report.Components.StiPage() {me.Page1})
+            '
+            'Add to Styles
+            '
+            Me.Styles.Clear
+            Me.Styles.AddRange(New Stimulsoft.Report.StiBaseStyle() {me.StyleStyleData1})
+            Me.Table0.Columns.AddRange(New Stimulsoft.Report.Dictionary.StiDataColumn() {New Stimulsoft.Report.Dictionary.StiDataColumn("Ma_Kh", "Ma_Kh", "Ma_Kh", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Dai_Dien1", "Dai_Dien1", "Dai_Dien1", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Chuc_Vu1", "Chuc_Vu1", "Chuc_Vu1", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Dai_Dien2", "Dai_Dien2", "Dai_Dien2", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Chuc_Vu2", "Chuc_Vu2", "Chuc_Vu2", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Dai_Dien3", "Dai_Dien3", "Dai_Dien3", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Chuc_Vu3", "Chuc_Vu3", "Chuc_Vu3", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Dai_Dien4", "Dai_Dien4", "Dai_Dien4", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Chuc_Vu4", "Chuc_Vu4", "Chuc_Vu4", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Tai", "Tai", "Tai", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Hom_Nay", "Hom_Nay", "Hom_Nay", GetType(DateTime)), New Stimulsoft.Report.Dictionary.StiDataColumn("strHom_Nay", "strHom_Nay", "strHom_Nay", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("ten_kh", "ten_kh", "ten_kh", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Dia_Chi", "Dia_Chi", "Dia_Chi", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Dien_Thoai", "Dien_Thoai", "Dien_Thoai", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("E_Mail", "E_Mail", "E_Mail", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Ngay_CT2", "Ngay_CT2", "Ngay_CT2", GetType(DateTime)), New Stimulsoft.Report.Dictionary.StiDataColumn("strNgay_CT2", "strNgay_CT2", "strNgay_CT2", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("strNgay_CT2_NT", "strNgay_CT2_NT", "strNgay_CT2_NT", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("M_Du_Ck", "M_Du_Ck", "M_Du_Ck", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("M_Du_Ck_NT", "M_Du_Ck_NT", "M_Du_Ck_NT", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Bang_Chu", "Bang_Chu", "Bang_Chu", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Bang_Chu1", "Bang_Chu1", "Bang_Chu1", GetType(String))})
+            Me.DataSources.Add(Me.Table0)
+            Me.Table1.Columns.AddRange(New Stimulsoft.Report.Dictionary.StiDataColumn() {New Stimulsoft.Report.Dictionary.StiDataColumn("Tk", "Tk", "Tk", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Ten_Tk", "Ten_Tk", "Ten_Tk", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Ma_kh", "Ma_kh", "Ma_kh", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Ten_kh", "Ten_kh", "Ten_kh", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Ngay_Ct1", "Ngay_Ct1", "Ngay_Ct1", GetType(DateTime)), New Stimulsoft.Report.Dictionary.StiDataColumn("Ngay_Ct2", "Ngay_Ct2", "Ngay_Ct2", GetType(DateTime)), New Stimulsoft.Report.Dictionary.StiDataColumn("Tu_Ngay", "Tu_Ngay", "Tu_Ngay", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Du_Dk", "Du_Dk", "Du_Dk", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Du_Dk_NT", "Du_Dk_NT", "Du_Dk_NT", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Ps_No", "Ps_No", "Ps_No", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Ps_No_Nt", "Ps_No_Nt", "Ps_No_Nt", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Ps_Co", "Ps_Co", "Ps_Co", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Ps_Co_Nt", "Ps_Co_Nt", "Ps_Co_Nt", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Du_Ck", "Du_Ck", "Du_Ck", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Du_Ck_NT", "Du_Ck_NT", "Du_Ck_NT", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("S1", "S1", "S1", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("S2", "S2", "S2", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("S3", "S3", "S3", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("S4", "S4", "S4", GetType(String))})
+            Me.DataSources.Add(Me.Table1)
+            Me.Table2.Columns.AddRange(New Stimulsoft.Report.Dictionary.StiDataColumn() {New Stimulsoft.Report.Dictionary.StiDataColumn("Stt", "Stt", "Stt", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("CP_Name", "CP_Name", "CP_Name", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Field_Name", "Field_Name", "Field_Name", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Field_Type", "Field_Type", "Field_Type", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Field_Head1", "Field_Head1", "Field_Head1", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Field_Head2", "Field_Head2", "Field_Head2", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Field_Width", "Field_Width", "Field_Width", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Field_Reonly", "Field_Reonly", "Field_Reonly", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Format", "Format", "Format", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("CellMerge", "CellMerge", "CellMerge", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("BackColor", "BackColor", "BackColor", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("BackColor2", "BackColor2", "BackColor2", GetType(String))})
+            Me.DataSources.Add(Me.Table2)
+            Me.Table3.Columns.AddRange(New Stimulsoft.Report.Dictionary.StiDataColumn() {New Stimulsoft.Report.Dictionary.StiDataColumn("Ma_Phan_He", "Ma_Phan_He", "Ma_Phan_He", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("CP_Name", "CP_Name", "CP_Name", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Title1", "Title1", "Title1", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Title2", "Title2", "Title2", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Helpname", "Helpname", "Helpname", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("Report", "Report", "Report", GetType(String)), New Stimulsoft.Report.Dictionary.StiDataColumn("ColFrozen", "ColFrozen", "ColFrozen", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("RowFrozen", "RowFrozen", "RowFrozen", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Export_Excel", "Export_Excel", "Export_Excel", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Export_Doc", "Export_Doc", "Export_Doc", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Export_Pdf", "Export_Pdf", "Export_Pdf", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Export_Html", "Export_Html", "Export_Html", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Export_Text", "Export_Text", "Export_Text", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Print", "Print", "Print", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Copy", "Copy", "Copy", GetType(Decimal)), New Stimulsoft.Report.Dictionary.StiDataColumn("Acti", "Acti", "Acti", GetType(Decimal))})
+            Me.DataSources.Add(Me.Table3)
+        End Sub
+        
+        #Region "DataSource Table0"
+        Public Class Table0DataSource
+            Inherits Stimulsoft.Report.Dictionary.StiDataTableSource
+            
+            Public Sub New()
+                MyBase.New("CyberDataSource.Table0", "Table0")
+            End Sub
+            
+            Public Overridable ReadOnly Property Ma_Kh As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Ma_Kh"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Dai_Dien1 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Dai_Dien1"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Chuc_Vu1 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Chuc_Vu1"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Dai_Dien2 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Dai_Dien2"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Chuc_Vu2 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Chuc_Vu2"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Dai_Dien3 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Dai_Dien3"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Chuc_Vu3 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Chuc_Vu3"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Dai_Dien4 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Dai_Dien4"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Chuc_Vu4 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Chuc_Vu4"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Tai As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Tai"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Hom_Nay As DateTime
+                Get
+                    Return CType(StiReport.ChangeType(Me("Hom_Nay"), GetType(DateTime), true),DateTime)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property strHom_Nay As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("strHom_Nay"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property ten_kh As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("ten_kh"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Dia_Chi As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Dia_Chi"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Dien_Thoai As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Dien_Thoai"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property E_Mail As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("E_Mail"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Ngay_CT2 As DateTime
+                Get
+                    Return CType(StiReport.ChangeType(Me("Ngay_CT2"), GetType(DateTime), true),DateTime)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property strNgay_CT2 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("strNgay_CT2"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property strNgay_CT2_NT As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("strNgay_CT2_NT"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property M_Du_Ck As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("M_Du_Ck"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property M_Du_Ck_NT As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("M_Du_Ck_NT"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Bang_Chu As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Bang_Chu"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Bang_Chu1 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Bang_Chu1"), GetType(String), true),String)
+                End Get
+            End Property
+        End Class
+        #End Region 'DataSource Table0
+        
+        #Region "DataSource Table1"
+        Public Class Table1DataSource
+            Inherits Stimulsoft.Report.Dictionary.StiDataTableSource
+            
+            Public Sub New()
+                MyBase.New("CyberDataSource.Table1", "Table1")
+            End Sub
+            
+            Public Overridable ReadOnly Property Tk As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Tk"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Ten_Tk As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Ten_Tk"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Ma_kh As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Ma_kh"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Ten_kh As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Ten_kh"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Ngay_Ct1 As DateTime
+                Get
+                    Return CType(StiReport.ChangeType(Me("Ngay_Ct1"), GetType(DateTime), true),DateTime)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Ngay_Ct2 As DateTime
+                Get
+                    Return CType(StiReport.ChangeType(Me("Ngay_Ct2"), GetType(DateTime), true),DateTime)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Tu_Ngay As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Tu_Ngay"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Du_Dk As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Du_Dk"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Du_Dk_NT As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Du_Dk_NT"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Ps_No As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Ps_No"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Ps_No_Nt As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Ps_No_Nt"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Ps_Co As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Ps_Co"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Ps_Co_Nt As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Ps_Co_Nt"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Du_Ck As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Du_Ck"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Du_Ck_NT As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Du_Ck_NT"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property S1 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("S1"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property S2 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("S2"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property S3 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("S3"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property S4 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("S4"), GetType(String), true),String)
+                End Get
+            End Property
+        End Class
+        #End Region 'DataSource Table1
+        
+        #Region "DataSource Table2"
+        Public Class Table2DataSource
+            Inherits Stimulsoft.Report.Dictionary.StiDataTableSource
+            
+            Public Sub New()
+                MyBase.New("CyberDataSource.Table2", "Table2")
+            End Sub
+            
+            Public Overridable ReadOnly Property Stt As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Stt"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property CP_Name As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("CP_Name"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Field_Name As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Field_Name"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Field_Type As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Field_Type"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Field_Head1 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Field_Head1"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Field_Head2 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Field_Head2"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Field_Width As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Field_Width"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Field_Reonly As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Field_Reonly"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Format As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Format"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property CellMerge As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("CellMerge"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property BackColor As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("BackColor"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property BackColor2 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("BackColor2"), GetType(String), true),String)
+                End Get
+            End Property
+        End Class
+        #End Region 'DataSource Table2
+        
+        #Region "DataSource Table3"
+        Public Class Table3DataSource
+            Inherits Stimulsoft.Report.Dictionary.StiDataTableSource
+            
+            Public Sub New()
+                MyBase.New("CyberDataSource.Table3", "Table3")
+            End Sub
+            
+            Public Overridable ReadOnly Property Ma_Phan_He As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Ma_Phan_He"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property CP_Name As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("CP_Name"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Title1 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Title1"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Title2 As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Title2"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Helpname As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Helpname"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Report As String
+                Get
+                    Return CType(StiReport.ChangeType(Me("Report"), GetType(String), true),String)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property ColFrozen As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("ColFrozen"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property RowFrozen As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("RowFrozen"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Export_Excel As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Export_Excel"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Export_Doc As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Export_Doc"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Export_Pdf As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Export_Pdf"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Export_Html As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Export_Html"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Export_Text As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Export_Text"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Print As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Print"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Copy As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Copy"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+            
+            Public Overridable ReadOnly Property Acti As Decimal
+                Get
+                    Return CType(StiReport.ChangeType(Me("Acti"), GetType(Decimal), true),Decimal)
+                End Get
+            End Property
+        End Class
+        #End Region 'DataSource Table3
+        #End Region 'StiReport Designer generated code - do not modify
+    End Class
+End Namespace
+</Script>
+  <ScriptLanguage>VB</ScriptLanguage>
+  <Styles isList="true" count="1">
+    <StyleData1 Ref="54" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <AllowUseFont>False</AllowUseFont>
+      <AllowUseTextBrush>False</AllowUseTextBrush>
+      <Brush>[240:237:232]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,8</Font>
+      <Name>StyleData1</Name>
+      <TextBrush>Blue</TextBrush>
+    </StyleData1>
+  </Styles>
+</StiSerializer>

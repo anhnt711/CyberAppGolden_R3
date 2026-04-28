@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{686C31DE-62FA-44B8-B2DA-97AEED3999C6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Cyber.Workprogress</RootNamespace>
+    <AssemblyName>Cyber.Workprogress</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\</OutputPath>
+    <DocumentationFile>Cyber.Workprogress.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cyber.Workprogress.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cyber.ClsDllCalculator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.ClsDllCalculator.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.ClsTextBox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.ClsTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.ClsTxtDateTime, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.ClsTxtDateTime.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.Color, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Color.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.Export, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.Fill, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Fill.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.FptAI, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.FptAI.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.From, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.From.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.Loading, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Loading.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.Print, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Print.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.SmLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.SmLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.SmLists, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.SmLists.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.Smodb, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Smodb.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.Support, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.Voucher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Voucher.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.Data.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.Printing.v16.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.SpellChecker.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.SpellChecker.v16.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.Utils.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.1.UI, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.Utils.v16.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.XtraBars.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.XtraEditors.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.XtraGrid.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.XtraLayout.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.XtraScheduler.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.XtraScheduler.v16.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v16.1.Extensions, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.XtraScheduler.v16.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.XtraSpellChecker.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DevExpress.XtraTreeList.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1.Lich_Hen\FrmDLHenFilter.designer.vb">
+      <DependentUpon>FrmDLHenFilter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1.Lich_Hen\FrmDLHenFilter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1.Lich_Hen\FrmDLHen_Call.designer.vb">
+      <DependentUpon>FrmDLHen_Call.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1.Lich_Hen\FrmDLHen_Call.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1.Lich_Hen\FrmDLHen_F3.designer.vb">
+      <DependentUpon>FrmDLHen_F3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1.Lich_Hen\FrmDLHen_F3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2.Dat_Cho\FrmDat_Cho_F3.designer.vb">
+      <DependentUpon>FrmDat_Cho_F3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2.Dat_Cho\FrmDat_Cho_F3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTiendo_Xem_KH.designer.vb">
+      <DependentUpon>FrmTiendo_Xem_KH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTiendo_Xem_KH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do.designer.vb">
+      <DependentUpon>FrmTien_Do.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_ChayThu.designer.vb">
+      <DependentUpon>FrmTien_Do_ChayThu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_ChayThu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_ChuyenTang.Designer.vb">
+      <DependentUpon>FrmTien_Do_ChuyenTang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_ChuyenTang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_Dung_SC.Designer.vb">
+      <DependentUpon>FrmTien_Do_Dung_SC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_Dung_SC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_F3.designer.vb">
+      <DependentUpon>FrmTien_Do_F3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_F3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_F3_SDSALL.Designer.vb">
+      <DependentUpon>FrmTien_Do_F3_SDSALL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_F3_SDSALL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_Hen_To_KH.designer.vb">
+      <DependentUpon>FrmTien_Do_Hen_To_KH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_Hen_To_KH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_KCS_CD.Designer.vb">
+      <DependentUpon>FrmTien_Do_KCS_CD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_KCS_CD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_Mau_KX.designer.vb">
+      <DependentUpon>FrmTien_Do_Mau_KX.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_Mau_KX.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_Note.designer.vb">
+      <DependentUpon>FrmTien_Do_Note.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_Note.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_QGate.Designer.vb">
+      <DependentUpon>FrmTien_Do_QGate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_QGate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_TimKhoang.designer.vb">
+      <DependentUpon>FrmTien_Do_TimKhoang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_TimKhoang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_Update_TG_GX.Designer.vb">
+      <DependentUpon>FrmTien_Do_Update_TG_GX.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_Update_TG_GX.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_VitriDo.designer.vb">
+      <DependentUpon>FrmTien_Do_VitriDo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_VitriDo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_VitriDo_Vitri.designer.vb">
+      <DependentUpon>FrmTien_Do_VitriDo_Vitri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3.TienDo\FrmTien_Do_VitriDo_Vitri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4.Tien_Don\FrmSua_Bien.Designer.vb">
+      <DependentUpon>FrmSua_Bien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4.Tien_Don\FrmSua_Bien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4.Tien_Don\FrmTiep_Don.Designer.vb">
+      <DependentUpon>FrmTiep_Don.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4.Tien_Don\FrmTiep_Don.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4.Tien_Don\FrmTiep_Don_Dat_Cho.Designer.vb">
+      <DependentUpon>FrmTiep_Don_Dat_Cho.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4.Tien_Don\FrmTiep_Don_Dat_Cho.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4.Tien_Don\FrmTiep_Don_Update_RVR.designer.vb">
+      <DependentUpon>FrmTiep_Don_Update_RVR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4.Tien_Don\FrmTiep_Don_Update_RVR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.Xac_Nhan\FrmXac_Nhan.designer.vb">
+      <DependentUpon>FrmXac_Nhan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="5.Xac_Nhan\FrmXac_Nhan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="6.CW\FrmCW.Designer.vb">
+      <DependentUpon>FrmCW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="6.CW\FrmCW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="6.CW\FrmCW_F34.Designer.vb">
+      <DependentUpon>FrmCW_F34.vb</DependentUpon>
+    </Compile>
+    <Compile Include="6.CW\FrmCW_F34.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7.PDS\FrmPDS.designer.vb">
+      <DependentUpon>FrmPDS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="7.PDS\FrmPDS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7.PDS\FrmPDS_F3.designer.vb">
+      <DependentUpon>FrmPDS_F3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="7.PDS\FrmPDS_F3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.Xac_Nhan\FrmXac_Nhan_F3.designer.vb">
+      <DependentUpon>FrmXac_Nhan_F3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="5.Xac_Nhan\FrmXac_Nhan_F3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="8.CapStt\FrmCapStt_F3.designer.vb">
+      <DependentUpon>FrmCapStt_F3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="8.CapStt\FrmCapStt_F3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="8.CapStt\FrmCapStt.designer.vb">
+      <DependentUpon>FrmCapStt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="8.CapStt\FrmCapStt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FFF.designer.vb">
+      <DependentUpon>FFF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FFF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRun.designer.vb">
+      <DependentUpon>FRun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Sys.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="1.Lich_Hen\FrmDLHenFilter.resx">
+      <DependentUpon>FrmDLHenFilter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1.Lich_Hen\FrmDLHen_Call.resx">
+      <DependentUpon>FrmDLHen_Call.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1.Lich_Hen\FrmDLHen_F3.resx">
+      <DependentUpon>FrmDLHen_F3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2.Dat_Cho\FrmDat_Cho_F3.resx">
+      <DependentUpon>FrmDat_Cho_F3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTiendo_Xem_KH.resx">
+      <DependentUpon>FrmTiendo_Xem_KH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do.resx">
+      <DependentUpon>FrmTien_Do.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_ChayThu.resx">
+      <DependentUpon>FrmTien_Do_ChayThu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_ChuyenTang.resx">
+      <DependentUpon>FrmTien_Do_ChuyenTang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_Dung_SC.resx">
+      <DependentUpon>FrmTien_Do_Dung_SC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_F3.resx">
+      <DependentUpon>FrmTien_Do_F3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_F3_SDSALL.resx">
+      <DependentUpon>FrmTien_Do_F3_SDSALL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_Hen_To_KH.resx">
+      <DependentUpon>FrmTien_Do_Hen_To_KH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_KCS_CD.resx">
+      <DependentUpon>FrmTien_Do_KCS_CD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_Mau_KX.resx">
+      <DependentUpon>FrmTien_Do_Mau_KX.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_Note.resx">
+      <DependentUpon>FrmTien_Do_Note.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_QGate.resx">
+      <DependentUpon>FrmTien_Do_QGate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_TimKhoang.resx">
+      <DependentUpon>FrmTien_Do_TimKhoang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_Update_TG_GX.resx">
+      <DependentUpon>FrmTien_Do_Update_TG_GX.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_VitriDo.resx">
+      <DependentUpon>FrmTien_Do_VitriDo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.TienDo\FrmTien_Do_VitriDo_Vitri.resx">
+      <DependentUpon>FrmTien_Do_VitriDo_Vitri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4.Tien_Don\FrmSua_Bien.resx">
+      <DependentUpon>FrmSua_Bien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4.Tien_Don\FrmTiep_Don.resx">
+      <DependentUpon>FrmTiep_Don.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4.Tien_Don\FrmTiep_Don_Dat_Cho.resx">
+      <DependentUpon>FrmTiep_Don_Dat_Cho.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4.Tien_Don\FrmTiep_Don_Update_RVR.resx">
+      <DependentUpon>FrmTiep_Don_Update_RVR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.Xac_Nhan\FrmXac_Nhan.resx">
+      <DependentUpon>FrmXac_Nhan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="6.CW\FrmCW.resx">
+      <DependentUpon>FrmCW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="6.CW\FrmCW_F34.resx">
+      <DependentUpon>FrmCW_F34.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7.PDS\FrmPDS.resx">
+      <DependentUpon>FrmPDS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7.PDS\FrmPDS_F3.resx">
+      <DependentUpon>FrmPDS_F3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.Xac_Nhan\FrmXac_Nhan_F3.resx">
+      <DependentUpon>FrmXac_Nhan_F3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="8.CapStt\FrmCapStt_F3.resx">
+      <DependentUpon>FrmCapStt_F3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="8.CapStt\FrmCapStt.resx">
+      <DependentUpon>FrmCapStt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FFF.resx">
+      <DependentUpon>FFF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRun.resx">
+      <DependentUpon>FRun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletelist_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exporttoxls_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\status_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh2_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\historyitem_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag4.png" />
+    <None Include="Resources\flag3.png" />
+    <None Include="Resources\flag2.png" />
+    <None Include="Resources\flag1.png" />
+    <None Include="Resources\flag5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullextent_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showworktimeonly_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\news_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\managedatasource_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Newtonsoft.Json.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RestSharp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6BA3046E-4E01-468D-BAA7-8336027D00AF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Cyber.ReportsCustom</RootNamespace>
+    <AssemblyName>Cyber.ReportsCustom</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\</OutputPath>
+    <DocumentationFile>Cyber.ReportsCustom.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cyber.ReportsCustom.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cyber.ClsDllCalculator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Cyber.ClsTextBox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Cyber.Fill, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Fill.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.From, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.From.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.Reports, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Reports.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.SmLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.SmLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.SmLists, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.SmLists.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.Smodb, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Smodb.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.Smreports, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Smreports.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.Support, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyber.Voucher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cyber.Voucher.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FARCD1.Designer.vb">
+      <DependentUpon>FARCD1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FARCD1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FARSO1.Designer.vb">
+      <DependentUpon>FARSO1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FARSO1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FARTH1.Designer.vb">
+      <DependentUpon>FARTH1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FARTH1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGLSO1.Designer.vb">
+      <DependentUpon>FGLSO1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGLSO1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GL\GLTC27.designer.vb">
+      <DependentUpon>GLTC27.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GL\GLTC27.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysTH1.designer.vb">
+      <DependentUpon>SysTH1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SysTH1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysBK1.designer.vb">
+      <DependentUpon>SysBK1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SysBK1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysMonth.Designer.vb">
+      <DependentUpon>SysMonth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SysMonth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysDate.Designer.vb">
+      <DependentUpon>SysDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SysDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysMonthToMonth.Designer.vb">
+      <DependentUpon>SysMonthToMonth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SysMonthToMonth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysDateToDate.Designer.vb">
+      <DependentUpon>SysDateToDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SysDateToDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Startup.Designer.vb">
+      <DependentUpon>Startup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sys.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FARCD1.resx">
+      <DependentUpon>FARCD1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FARSO1.resx">
+      <DependentUpon>FARSO1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FARTH1.resx">
+      <DependentUpon>FARTH1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGLSO1.resx">
+      <DependentUpon>FGLSO1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GL\GLTC27.resx">
+      <DependentUpon>GLTC27.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysTH1.resx">
+      <DependentUpon>SysTH1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysBK1.resx">
+      <DependentUpon>SysBK1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysMonth.resx">
+      <DependentUpon>SysMonth.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysDate.resx">
+      <DependentUpon>SysDate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysMonthToMonth.resx">
+      <DependentUpon>SysMonthToMonth.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysDateToDate.resx">
+      <DependentUpon>SysDateToDate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Startup.resx">
+      <DependentUpon>Startup.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BE\" />
+    <Folder Include="RO\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

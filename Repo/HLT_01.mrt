@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="3">
+      <Table0 Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Table0</Alias>
+        <Columns isList="true" count="5">
+          <value>Status,System.String</value>
+          <value>Note,System.String</value>
+          <value>Msg,System.String</value>
+          <value>Repo_Name,System.String</value>
+          <value>M_Title,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Table0</Name>
+        <NameInSource>CyberDataSource.Table0</NameInSource>
+      </Table0>
+      <Table1 Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Table1</Alias>
+        <Columns isList="true" count="55">
+          <value>Ma_Dvcs,System.String</value>
+          <value>Ngay_tao,System.DateTime</value>
+          <value>Gio_Tao,System.String</value>
+          <value>Id_Kh,System.String</value>
+          <value>Ong_Ba,System.String</value>
+          <value>Ngay_Sinh,System.DateTime</value>
+          <value>NS_Xac_Dinh,System.String</value>
+          <value>Ngay_DKKH,System.DateTime</value>
+          <value>Ten_kh,System.String</value>
+          <value>Dia_Chi,System.String</value>
+          <value>Ten_khVAT,System.String</value>
+          <value>Dia_ChiVAT,System.String</value>
+          <value>DT1,System.String</value>
+          <value>Dt2,System.String</value>
+          <value>Dt3,System.String</value>
+          <value>Dt4,System.String</value>
+          <value>Chuc_Vu,System.String</value>
+          <value>MST_CN,System.String</value>
+          <value>Ma_So_DN,System.String</value>
+          <value>SCMT,System.String</value>
+          <value>EMail1,System.String</value>
+          <value>EMail2,System.String</value>
+          <value>Thu_Nhap,System.Decimal</value>
+          <value>Ma_So_THue,System.String</value>
+          <value>Ng_QH,System.String</value>
+          <value>DC_QH,System.String</value>
+          <value>DT_QH,System.String</value>
+          <value>nguoi_mg,System.String</value>
+          <value>dc_mg,System.String</value>
+          <value>dt_mg,System.String</value>
+          <value>Ng_LT,System.String</value>
+          <value>So_bang_LT,System.String</value>
+          <value>Xe_LT,System.String</value>
+          <value>Ghi_Chu,System.String</value>
+          <value>Dung,System.String</value>
+          <value>Ma_LHKH,System.String</value>
+          <value>Ma_TTHN,System.String</value>
+          <value>Ma_GT,System.String</value>
+          <value>Ma_DTuoi,System.String</value>
+          <value>Ma_PTLH,System.String</value>
+          <value>Ma_TP,System.String</value>
+          <value>Ma_Quan,System.String</value>
+          <value>Ma_Xa,System.String</value>
+          <value>Ma_Kx,System.String</value>
+          <value>Ma_Mau,System.String</value>
+          <value>Ma_HTTT,System.String</value>
+          <value>Ma_KHMUA,System.String</value>
+          <value>Linh_vuc,System.String</value>
+          <value>Ma_TTKH,System.String</value>
+          <value>So_luong,System.Decimal</value>
+          <value>Gia_Tri,System.Decimal</value>
+          <value>Pt_TC,System.Decimal</value>
+          <value>User_Name,System.String</value>
+          <value>Acti,System.Decimal</value>
+          <value>WaterMark,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Table1</Name>
+        <NameInSource>CyberDataSource.Table1</NameInSource>
+      </Table1>
+      <Table2 Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Table2</Alias>
+        <Columns isList="true" count="18">
+          <value>Id_kh,System.String</value>
+          <value>Id_Item,System.String</value>
+          <value>Ngay_Ct,System.DateTime</value>
+          <value>Note,System.String</value>
+          <value>Ma_TT,System.String</value>
+          <value>Ghi_Chu,System.String</value>
+          <value>Ng_LT,System.String</value>
+          <value>Nguoi_ngoi,System.String</value>
+          <value>So_Bang_LT,System.String</value>
+          <value>Ma_kx_LT,System.String</value>
+          <value>User_Id,System.Decimal</value>
+          <value>User_Name,System.String</value>
+          <value>Ngay_LT,System.DateTime</value>
+          <value>Gio_BD,System.String</value>
+          <value>Gio_KT,System.String</value>
+          <value>Dia_chi,System.String</value>
+          <value>Lien_lac,System.String</value>
+          <value>Ten_kx,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Table2</Name>
+        <NameInSource>CyberDataSource.Table2</NameInSource>
+      </Table2>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="13">
+      <value>,M_DIA_CHI,M_DIA_CHI,System.String,Số_x0020_39_x0020_Lý_x0020_Thái_x0020_Tổ_x002C__x0020_Phường_x0020_Võ_x0020_Cường_x002C_TP.Bắc_x0020_Ninh_x002C__x0020_Tỉnh_x0020_Bắc_x0020_Ninh,False,False</value>
+      <value>,M_DIEN_THOAI,M_DIEN_THOAI,System.String,_x0030_913_x0020_.000.037,False,False</value>
+      <value>,M_EMAIL,M_EMAIL,System.String,Sales_x0040_cybersoft.com.vn,False,False</value>
+      <value>,M_FAX,M_FAX,System.String,_x0030_43_x0020_-7765_x0020_047,False,False</value>
+      <value>,M_MA_SO_THUE,M_MA_SO_THUE,System.String,_x0032_300477686,False,False</value>
+      <value>,M_TEN_CTY,M_TEN_CTY,System.String,CÔNG_x0020_TY_x0020_CỔ_x0020_PHẦN_x0020_PHẦN_x0020_MỀM_x0020_QUẢN_x0020_TRỊ_x0020_DOANH_x0020_NGHIỆP,False,False</value>
+      <value>,M_TEN_TCTY,M_TEN_TCTY,System.String,UBND_x0020_thành_x0020_phố_x0020_Thái_x0020_Bình,False,False</value>
+      <value>,M_TEN_GD,M_TEN_GD,System.String,LÊ_x0020_CẢNH_x0020_TOÀN,False,False</value>
+      <value>,M_TEN_KTT,M_TEN_KTT,System.String,NGUYỄN_x0020_TRẦN_x0020_A,False,False</value>
+      <value>,M_WEBSITE,M_WEBSITE,System.String,WWW.CYBERSOFT.COM.VN,False,False</value>
+      <value>,M_TEN_NLB,M_TEN_NLB,System.String,Admin:_x0020_Hotline_x0020_1900.54.54.34,False,False</value>
+      <value>,M_TITLE1,M_TITLE1,System.String,ĐỀ_x0020_XUẤT_x0020_LÁI_x0020_THỬ_x0020_XE,False,False</value>
+      <value>,M_TITLE2,M_TITLE2,System.String,ĐỀ_x0020_XUẤT_x0020_LÁI_x0020_THỬ_x0020_XE,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="5" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <FooterPage Ref="6" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,10.5,8.2,0.2</ClientRectangle>
+          <Components isList="true" count="3">
+            <TxtFooter_PageNumber Ref="7" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.2,0,1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>TxtFooter_PageNumber</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Trang {PageNumber}/{TotalPageCount}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TxtFooter_PageNumber>
+            <TxtFooter_Time Ref="8" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,3,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>TxtFooter_Time</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Time}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="9" type="DateFormat" isKey="true">
+                <NullDisplay />
+                <StringFormat>dd/MM/yyyy HH:mm:ss</StringFormat>
+              </TextFormat>
+              <VertAlignment>Center</VertAlignment>
+            </TxtFooter_Time>
+            <H_FooterPage_Line Ref="10" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0,0,8.2,0.01</ClientRectangle>
+              <Color>Black</Color>
+              <EndCap Ref="11" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>H_FooterPage_Line</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <StartCap Ref="12" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </H_FooterPage_Line>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>FooterPage</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </FooterPage>
+        <TitleBand Ref="13" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.2,8.2,6.2</ClientRectangle>
+          <Components isList="true" count="29">
+            <TxtTiTle_M_TEN_TCTY Ref="14" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0,8.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>TxtTiTle_M_TEN_TCTY</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>{M_TEN_TCTY}</Text>
+              <TextBrush>Black</TextBrush>
+            </TxtTiTle_M_TEN_TCTY>
+            <TxtTiTle_M_TEN_CTY Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0.2,8.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>TxtTiTle_M_TEN_CTY</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>{M_TEN_CTY}</Text>
+              <TextBrush>Black</TextBrush>
+            </TxtTiTle_M_TEN_CTY>
+            <TxtTiTle_M_DIA_CHI Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0.4,8.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>TxtTiTle_M_DIA_CHI</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>{M_DIA_CHI}</Text>
+              <TextBrush>Black</TextBrush>
+            </TxtTiTle_M_DIA_CHI>
+            <TxtTiTle_M_TITLE1 Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0.7,8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,18,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>TxtTiTle_M_TITLE1</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>{M_TITLE1}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TxtTiTle_M_TITLE1>
+            <Text1 Ref="18" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,1.3,1.8,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>59ecf2364b2e4d519a9a64a18e87c767</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Họ và tên người yêu cầu:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text1>
+            <Text2 Ref="19" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,1.6,1.8,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>224a29d8740049d7b4441e83cd7c308b</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Địa chỉ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text2>
+            <Text3 Ref="20" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,1.9,1.8,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>288677c2457d40cb94cf2e465968bda8</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Điện thoại/Di động:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text3>
+            <Text4 Ref="21" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,2.2,1.8,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>c49491e7c9b24d43976ccc2ff2d10857</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Yêu cầu lái thử xe:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text4>
+            <Text5 Ref="22" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,2.5,1.8,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>b601df502f4e419f94ce0d6aea371efd</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Ngày lái thử:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text5>
+            <Text6 Ref="23" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,2.8,1.8,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>41628bbf70b24ea9bb3d4bcb8cd893a3</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Bằng lái xe số(bắt buộc):</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text6>
+            <Text7 Ref="24" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>5.7,2.5,1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>9fcc46d4311a487aa4b53b2e2dea67c3</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Giờ kết thúc:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text7>
+            <Text9 Ref="25" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0.2,3.4,7.9,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>59c366f762e348049dcdeac2994a6795</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Để đảm bảo an toàn cho mình, cho người khác trên xe và an toàn giao thông, tôi hiểu dõ và cam kết thực hiện đầy đủ các điều kiện như sau:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text9>
+            <Text10 Ref="26" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,3.1,2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>229908597aaf4c169b0c164aa3ff384d</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Tư vấn bán hàng phụ trách:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text10>
+            <Text11 Ref="27" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.2,3.7,7.7,1.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>222e40f839fe4204a900c562121fd191</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>1. Chạy theo đúng tuyến đường đã được showroom quy định.
+2. Luôn thắt dây an toàn, điều chỉnh vô lăng, ghế lái phù hợp khi khởi hành xe.
+3. Có thái độ nghiêm túc khi lái xe, không uống rượu, bia, hút thuốc lá và nghe điện thoại khi lái xe.
+4. Chấp hành theo luật giao thông đường bộ &amp; chịu mọi trách nhiệm về những hành vi vi phạm luật giao thông đường bộ do chính mình vi phạm.
+5. Tuân thủ theo sự hướng dẫn của nhân viên hướng dẫn đi cùng.
+6. Đền bù mọi thiệt hại nếu để xay ra tai nạn khi lái thử xe.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text11>
+            <Text12 Ref="28" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,5,6.8,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,10,Italic</Font>
+              <Guid>e1d2119527ef480f9b2ac9ce3505f091</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Chú ý: Chúng tôi có thể từ chối phục vụ khách hàng lái thử xe nếu không tuân thủ các cam kết trên.</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text12>
+            <Text16 Ref="29" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>5,5.7,2.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold</Font>
+              <Guid>7247c2e5cdc1485cb0321dc7237a6039</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Người yêu cầu lái thử</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text16>
+            <Text15 Ref="30" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>5,5.5,2.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <Guid>b8af4d90334843c59031731d41313a32</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Hà Nội, ngày......tháng .........năm.........</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text15>
+            <Text14 Ref="31" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>5,5.9,2.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <Guid>69534aba75b94dbf935d9f677348a970</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>(Ký và ghi rõ họ tên)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text14>
+            <Text17 Ref="32" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,5.7,2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold</Font>
+              <Guid>1af4c8de923949a488b281c0ef2cde57</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Xác nhận của showroom</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text17>
+            <Text8 Ref="33" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>2.1,1.3,6.3,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>{Table2.Ng_LT}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text8>
+            <Text13 Ref="34" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>2.1,2.8,5.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>{Table2.So_Bang_LT}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text13>
+            <Text18 Ref="35" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>2.1,1.6,6.3,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>{Table2.Dia_chi}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text18>
+            <Text20 Ref="36" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>2.1,1.9,6.3,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>{Table2.Lien_lac}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text20>
+            <Text21 Ref="37" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>4.5,2.5,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>{Table2.Gio_BD}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text21>
+            <Text23 Ref="38" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>6.8,2.5,1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>{Table2.Gio_KT}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text23>
+            <Text22 Ref="39" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>2.1,3.1,5.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>{Table2.User_Name}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text22>
+            <Text19 Ref="40" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.1,2.2,6.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>{Table2.Ten_kx}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+            <Text24 Ref="41" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>3.6,2.5,0.9,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>c7add4b2bd854d1d9c93b49f89d06e2f</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Giờ bắt đầu:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text24>
+            <Text25 Ref="42" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>2.1,2.5,1.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,11,Bold</Font>
+              <Guid>a439bab1c85d4c438ceab4b190b89a81</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>{Table2.Ngay_LT}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="43" type="DateFormat" isKey="true">
+                <StringFormat>dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>DataColumn</Type>
+            </Text25>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>TitleBand</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </TitleBand>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>bc5f477a8d454647a67e3bedc0a9218c</Guid>
+      <Margins>0.15,0.15,0.15,0.15</Margins>
+      <Name>Page1</Name>
+      <PageHeight>11</PageHeight>
+      <PageWidth>8.5</PageWidth>
+      <PaperSize>Letter</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="44" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <ShowBehind>True</ShowBehind>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="45" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>9/28/2017 1:32:20 PM</ReportChanged>
+  <ReportCreated>9/22/2017 4:49:53 PM</ReportCreated>
+  <ReportFile>F:\Project\CyberAppGolden_New\Repo\HLT_01.mrt</ReportFile>
+  <ReportGuid>ba60c6f6240847e9881225198e70e178</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2011.3.1200</ReportVersion>
+  <Script>Imports System
+Imports System.Drawing
+Imports System.Windows.Forms
+Imports System.Data
+Imports Stimulsoft.Controls
+Imports Stimulsoft.Base.Drawing
+Imports Stimulsoft.Report
+Imports Stimulsoft.Report.Dialogs
+Imports Stimulsoft.Report.Components
+
+Namespace Reports
+    Public Class Report
+        Inherits Stimulsoft.Report.StiReport
+
+        Public Sub New()
+            MyBase.New
+            Me.InitializeComponent
+        End Sub
+
+        #Region "StiReport Designer generated code - do not modify"
+        #End Region 'StiReport Designer generated code - do not modify
+    End Class
+End Namespace
+</Script>
+  <ScriptLanguage>VB</ScriptLanguage>
+  <Styles isList="true" count="1">
+    <StyleData1 Ref="46" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <AllowUseFont>False</AllowUseFont>
+      <AllowUseTextBrush>False</AllowUseTextBrush>
+      <Brush>[240:237:232]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,8</Font>
+      <Name>StyleData1</Name>
+      <TextBrush>Blue</TextBrush>
+    </StyleData1>
+  </Styles>
+</StiSerializer>
